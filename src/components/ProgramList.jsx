@@ -8,10 +8,10 @@ function ProgramList() {
   return (
     <section className='container'>
         <TitleUL text='PROGRAM' size='h2'/>
-        <ProgramItem title='WHO I AM' credit='CHANG' link='About'/>
-        <ProgramItem title='WORKS SUITE' subitem_list={work_data}/>
-        <ProgramItem title='FILM SUITE' subitem_list={film_data}/>
-        <ProgramItem title='MUSIC SUITE' subitem_list={music_data}/>
+        <ProgramItem listing='Jeff Chang: Abridged' credit='CHANG' link='About'/>
+        <ProgramItem listing='Stories of Technology' subitem_list={work_data}/>
+        <ProgramItem listing='Stories of Motion Picture' subitem_list={film_data}/>
+        <ProgramItem listing='Stories of Me' subitem_list={music_data}/>
     </section>
   )
 }

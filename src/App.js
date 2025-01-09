@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
 
-import Grid from './components/Grid';
+import HomeGrid from './components/HomeGrid';
 import ProgramList from './components/ProgramList';
 import Footer from './components/Footer';
 import About from './pages/About';
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={
           <main>
-            <Grid/>
+            <HomeGrid/>
             <ProgramList/>
             <Footer/>
           </main>

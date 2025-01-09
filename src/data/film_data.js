@@ -1,11 +1,13 @@
 const film_data = [
     {
-        title: 'ONIRIA HILL',
-        credit: 'ARR. CHUCHO MARTÍNEZ'
+        listing: 'ONIRIA HILL',
+        credit: 'CHUCHO MARTÍNEZ',
+        arranged: true,
     },
     {
-        title: 'DIRTY LAUNDRY',
-        credit: 'ARR. CAP STUDIOS'
+        listing: 'DIRTY LAUNDRY',
+        credit: 'CAP STUDIOS',
+        arranged: true,
     }
 ]
 

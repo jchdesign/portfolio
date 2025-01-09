@@ -1,11 +1,13 @@
 const music_data = [
     {
-        title: 'RECOLLECTIONS',
-        credit: 'CHANG'
+        listing: 'RECOLLECTIONS',
+        credit: 'CHANG',
+        arranged: false,
     },
     {
-        title: 'EVERSLEEP',
-        credit: 'CHANG, BABU'
+        listing: 'EVERSLEEP',
+        credit: 'CHANG, BABU',
+        arranged: false,
     },
 ]
 
