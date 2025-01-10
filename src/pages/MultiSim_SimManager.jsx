@@ -6,6 +6,7 @@ import CaseStudyGrid from '../components/CaseStudyGrid';
 import ImageTextSection from '../components/ImageTextSection';
 import LayeredTextSection from '../components/LayeredTextSection';
 import SectionDivider from '../components/SectionDivider';
+import TextSection from '../components/TextSection';
 import work_data from '../data/work_data';
 
 function MultiSim_SimManager() {
@@ -25,6 +26,8 @@ function MultiSim_SimManager() {
       <ImageTextSection orientation='text-img'img={Figure1} title='Hello World' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'/>
       <ImageTextSection orientation='top-bottom'img={Figure1} title='Hello World' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'/>
       <ImageTextSection orientation='top-bottom'img={Figure1} text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'/>
+      <TextSection textAlign='left' text={'Hello there'}/>
+      <TextSection textAlign='right' text={'Hello there'}/>
     </main>
   )
 }

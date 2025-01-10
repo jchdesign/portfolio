@@ -211,7 +211,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 1em;
+  gap: 2em;
 }
 
 .footer-img {
@@ -376,6 +376,16 @@ p {
   box-sizing: border-box;
 }
 
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 50px;
+  white-space: pre-line;
+  border-bottom: 1px solid var(--outline-primary);
+}
+
 .left-80 {
   width: 80%;
   text-align: left;
@@ -406,6 +416,10 @@ p {
     width: 100%;
     padding: 32px;
   }
+
+  .text-container {
+    padding: 32px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -416,6 +430,77 @@ p {
   .img-text-container > .text {
     padding: 20px;
   }
+
+  .text-container {
+    padding: 20px;
+  }
+}
+
+/* 
+   ###    ########   #######  ##     ## ########    
+  ## ##   ##     ## ##     ## ##     ##    ##       
+ ##   ##  ##     ## ##     ## ##     ##    ##       
+##     ## ########  ##     ## ##     ##    ##       
+######### ##     ## ##     ## ##     ##    ##       
+##     ## ##     ## ##     ## ##     ##    ##       
+##     ## ########   #######   #######     ##       
+*/
+
+#roles-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 33vh;
+}
+
+.about-img {
+  background-color: var(--bg-secondary);
+  background-position: 25%;
+  background-repeat: no-repeat;
+  height: 67vh;
+  background-size: cover;
+  position: relative;
+}
+
+#roles-container > .role {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  flex-grow: 1;
+  border-bottom: 1px solid var(--outline-primary);
+}
+
+/* #roles-container > .role:nth-child(n) {
+  padding-left: calc(80vw / 8 * (n));
+} */
+
+#roles-container > .role:nth-child(1) {
+  padding-left: calc(70vw/8);
+}
+
+#roles-container > .role:nth-child(2) {
+  padding-left: calc(70vw/8*2);
+}
+
+#roles-container > .role:nth-child(3) {
+  padding-left: calc(70vw/8*3);
+}
+
+#roles-container > .role:nth-child(4) {
+  padding-left: calc(70vw/8*4);
+}
+
+#roles-container > .role:nth-child(5) {
+  padding-left: calc(70vw/8*5);
+}
+
+#roles-container > .role:nth-child(6) {
+  padding-left: calc(70vw/8*6);
+}
+
+#roles-container > .role:nth-child(7) {
+  padding-left: calc(70vw/8*7);
 }
 
 /* 

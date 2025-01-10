@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
+import about_data from './data/about_data';
 
 import HomeGrid from './components/HomeGrid';
 import ProgramList from './components/ProgramList';
@@ -9,6 +10,7 @@ import MultiSim_SimManager from './pages/MultiSim_SimManager';
 import Nearby from './pages/Nearby';
 
 function App() {
+  console.log(about_data.image.Me);
   return (
     <Router>
       <Routes>
@@ -20,7 +22,7 @@ function App() {
           </main>
         }>
         </Route>
-        <Route path='/About' element={<About/>}></Route>
+        <Route path='/About' element={<About data={about_data}/>}></Route>
         <Route path='MultiSim_SimManager' element={<MultiSim_SimManager/>}></Route>
         <Route path='Nearby' element={<Nearby/>}></Route>
       </Routes>
