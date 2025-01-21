@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/your-app/static/css/main.73594f63.css",
+    "main.js": "/your-app/static/js/main.a439454f.js",
+    "static/js/488.9561f9b8.chunk.js": "/your-app/static/js/488.9561f9b8.chunk.js",
+    "static/media/uwma.jpg": "/your-app/static/media/uwma.fb8bdb2a033ef2979bf5.jpg",
+    "static/media/OHPoster.png": "/your-app/static/media/OHPoster.a4e3316903387b63a554.png",
+    "static/media/azureii.jpg": "/your-app/static/media/azureii.4af82c769f8b73855bf9.jpg",
+    "static/media/acedia.jpg": "/your-app/static/media/acedia.b5c3960b7bf9c6ba2334.jpg",
+    "static/media/rcltns.png": "/your-app/static/media/rcltns.63d135d353ec2e1f42c8.png",
+    "static/media/june.jpg": "/your-app/static/media/june.e4c77e7bab0750f5211d.jpg",
+    "static/media/azurei.jpg": "/your-app/static/media/azurei.67eba99e3ab3b21c1ca2.jpg",
+    "static/media/sanctuaries.jpg": "/your-app/static/media/sanctuaries.2d0aa2bea331a43825ee.jpg",
+    "static/media/me.jpg": "/your-app/static/media/me.79a8ea5be7a53f9554fe.jpg",
+    "static/media/VVSS.jpg": "/your-app/static/media/VVSS.d881fce0f298c5257b7b.jpg",
+    "static/media/DLPoster.png": "/your-app/static/media/DLPoster.b3dadd5283f4b0e890c9.png",
+    "static/media/Figure1.jpg": "/your-app/static/media/Figure1.e3d93fb93b75f2f3bc58.jpg",
+    "static/media/remembered.jpg": "/your-app/static/media/remembered.497f5b7ae289caff9aa3.jpg",
+    "static/media/github.png": "/your-app/static/media/github.b78ea5a9902574cc9826.png",
+    "static/media/spotify.png": "/your-app/static/media/spotify.ff2c6295cb36a5763e81.png",
+    "static/media/youtube.png": "/your-app/static/media/youtube.05fb2d0567f07d3f09ba.png",
+    "index.html": "/your-app/index.html",
+    "main.73594f63.css.map": "/your-app/static/css/main.73594f63.css.map",
+    "main.a439454f.js.map": "/your-app/static/js/main.a439454f.js.map",
+    "488.9561f9b8.chunk.js.map": "/your-app/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73594f63.css",
+    "static/js/main.a439454f.js"
+  ]
+}
