@@ -87,13 +87,40 @@ const work_data = [
         link: '/Reflection'
     },
     {
-        key: 4,
-        listing: 'SF PARKS & REC REDESIGN',
-        credit: 'SF PARKS & REC',
+        key: 3,
+        title: 'WHAT DO WE SEE IN A REFLECTION?: Seeing Chirality Correlates with Aesthetic Perception',
+        listing: 'WHAT DO WE SEE IN A REFLECTION?',
+        role: ['JEFF CHANG', 'Research Assistant'],
+        credit: 'UCLA CVL',
         arranged: true,
+        duration: 'SEPT 2022 - MAR 2023',
         collab: true,
-        collab_credits: 'SF Parks & Recreation',
-        link: '/SFParksRec'
+        collab_credits: 'UCLA CVL',
+        collaborators: [
+            {
+                name: 'Yi-Chia Chen',
+                role: 'Lead Researcher'
+            },
+            {
+                name: 'Hongjing Lu',
+                role: 'Principal Investigator'
+            }
+        ],
+        img: Figure1,
+        overview: 'A psychological research study investigating the relationship between our perception of mirrored images and our aesthetic experience, in collaboration with Yi-Chia Chen and Hongjing Lu from the UCLA Computational Vision and Learning Lab.',
+        link: '/Reflection',
+
+        key: 4,
+        title: 'SF Parks & Rec Picnic Reservation Redesign',
+        listing: 'SF PARKS & REC REDESIGN',
+        role: ['JEFF CHANG', 'UX Designer'],
+        credit: 'SF Parks & Rec',
+        arranged: true,
+        duration: 'SEPT 2023 - OCT 2023',
+        collab: true,
+        img: Figure1,
+        overview: 'Overview Here',
+        link: '/SFParksRec',
     },
     {
         key: 5,
