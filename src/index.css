@@ -220,37 +220,37 @@ p {
 
 .grid-item > .block-container-1 > .block1 {
   width: 14vw;
-  height: 24px;
+  height: 8vh;
   background-color: var(--block-primary);
 }
 
 .grid-item > .block-container-1 > .block2 {
   width: 8vw;
-  height: 24px;
+  height: 6vh;
   background-color: var(--block-primary);
 }
 
 .grid-item > .block-container-1 > .block3 {
   width: 9vw;
-  height: 10px;
+  height: 2vh;
   background-color: var(--block-primary);
 }
 
 .grid-item > .block-container-1 > .block4 {
   width: 5vw;
-  height: 24px;
+  height: 6vh;
   background-color: var(--block-primary);
 }
 
 .grid-item > .block-container-1 > .block5 {
   width: 12vw;
-  height: 24px;
+  height: 8vh;
   background-color: var(--block-primary);
 }
 
 .grid-item > .block-container-1 > .block6 {
   width: 8vw;
-  height: 10px;
+  height: 2vh;
   background-color: var(--block-primary);
 }
 
