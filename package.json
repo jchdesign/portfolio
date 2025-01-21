@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://joedoe.github.io/your-app",
+  "homepage": "http://jchdesign.github.io/portfolio",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
