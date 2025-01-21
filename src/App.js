@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { useEffect } from 'react';
 import './App.css';
 import about_data from './data/about_data';
 
@@ -8,9 +9,16 @@ import Footer from './components/Footer';
 import About from './pages/About';
 import MultiSim_SimManager from './pages/MultiSim_SimManager';
 import Nearby from './pages/Nearby';
+import Reflection from './pages/Reflection';
+import Recollections from './pages/Recollections';
+import OniriaHill from './pages/OniriaHill';
+import DirtyLaundry from './pages/DirtyLaundry';
 
 function App() {
-  console.log(about_data.image.Me);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Router>
       <Routes>
@@ -23,8 +31,14 @@ function App() {
         }>
         </Route>
         <Route path='/About' element={<About data={about_data}/>}></Route>
-        <Route path='MultiSim_SimManager' element={<MultiSim_SimManager/>}></Route>
-        <Route path='Nearby' element={<Nearby/>}></Route>
+        <Route path='/MultiSim_SimManager' element={<MultiSim_SimManager/>}></Route>
+        <Route path='/Nearby' element={<Nearby/>}></Route>
+        <Route path='/Reflection' element={<Reflection/>}></Route>
+
+        <Route path='/OniriaHill' element={<OniriaHill/>}></Route>
+        <Route path='/DirtyLaundry' element={<DirtyLaundry/>}></Route>
+
+        <Route path='/Recollections' element={<Recollections/>}></Route>
       </Routes>
     </Router>
   );

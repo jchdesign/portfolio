@@ -8,18 +8,18 @@ function CaseStudyGrid({data}) {
         <ReturnHeader project={data.listing}/>
         <div className='case-study-grid'>
             <div className='grid-item'>
-            <TitleUL text={`IN COLLABORATION WITH ${data.credit}`} size='h4'/>
+                {data.collab ? <TitleUL text={`IN COLLABORATION WITH ${data.collab_credits}`} size='h4'/> :
+                <TitleUL text={data.collab_credits} size='h4'/>}
             </div>
             <div className='grid-item text-align-right flex-align-end'>
-            <p className='h5 font-200'>{data.duration}</p>
+                <p className='h5 font-200'>{data.duration}</p>
             </div>
             <div className='grid-item'>
-            <p className='title2 font-100'>{data.title}</p>
+                <p className='title2 font-100'>{data.title}</p>
             </div>
             <div className='grid-item flex-align-center'>
                 <img style={{
-                    maxHeight: '300px',
-                    maxWidth: '300px'
+                    width:'100%'
                 }} src={data.img}/>
             </div>
         </div>
@@ -28,14 +28,14 @@ function CaseStudyGrid({data}) {
             <p className='h4 font-100 font-grey heading-padded'>OVERVIEW</p>
             <p className='h4'>{data.overview}</p>
         </div>
-        <div className='grid-item'>
+        <div className='grid-item' style={!data.collab ? {gridRow:'1/4'}:{}}>
             <p className='h4 font-100 font-grey heading-padded'>DIRECTED BY</p>
             <ProgramSubItem 
                 listing={data.role[0]}
                 credit={data.role[1]}
             />
         </div>
-        <div className='grid-item'>
+        {data.collab && (<div className='grid-item'>
             <p className='h4 font-100 font-grey heading-padded'>FEATURING</p>
             {data.collaborators.map((item) => (
                 <ProgramSubItem 
@@ -43,7 +43,7 @@ function CaseStudyGrid({data}) {
                     credit={item.role}
                 />
             ))}
-        </div>
+        </div>)}
     </div>
     </>
   )

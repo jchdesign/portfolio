@@ -5,7 +5,7 @@ function ProgramItem({listing='Works', credit='Chang', link='', subitem_list=[]}
   return (
     <div className='program-container'>
         <div className='program-item'>
-            {link==='' ? <div className='title h3 font-200'>{listing}</div> : <Link to={link} className='title h3 font-200'>{listing}</Link>}
+            {link==='' ? <div className='title h3 font-200'>{listing}</div> : <Link to={link} className='text-link title h3 font-200'>{listing}</Link>}
             <div className='dashed-line'></div>
             <div className='artist h5 font-italic-200'>{credit}</div>
         </div>

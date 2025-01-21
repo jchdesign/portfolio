@@ -1,30 +1,44 @@
-function ImageTextSection({orientation, img, title='', text}) {
+import HyperLink from './HyperLink';
+
+function ImageTextSection({orientation='img-text', img, imglink='', hyperlink='', hyperlinkText='Link', title='', text, textSize='h5'}) {
   return (
     <>
         {
             orientation === 'img-text' ?  <div className='img-text-container'>
-                <img src={img} alt={img}/>
+                {imglink !== '' ? <a href={imglink} target='_blank'><img src={img} alt={img}/></a> : <img src={img} alt={img}/>}
                 <div className='text'>
                     {title!=='' ? <><p className='h2 font-200'>{title}</p><br></br></> : null}
-                    <p className='h5 font-200'>{text}</p>
+                    <p className={`${textSize} font-200`}>{text}</p>
+                    {hyperlink !== '' ? <><br></br><HyperLink text={hyperlinkText} url={hyperlink} size='h3 font-200 font-grey'/></> : null}
                 </div>
             </div> 
             : orientation ==='text-img' ? <div className='img-text-container'>
                 <div className='text'>
                     {title!=='' ? <><p className='h2 font-200'>{title}</p><br></br></> : null}
-                    <p className='h5 font-200'>{text}</p>
+                    <p className={`${textSize} font-200`}>{text}</p>
                 </div>
-                <img src={img} alt={img}/>
+                {imglink !== '' ? <a href={imglink}><img src={img} alt={img}/></a> : <img src={img} alt={img}/>}
             </div>
-            : <div className='img-text-container' style={{
+            : orientation ==='img-top' ? <div className='img-text-container' style={{
                 display: 'block'
             }}>
-                <img style={{width:'100%'}} src={img} alt={img}/>
+                {imglink !== '' ? <a href={imglink} target='_blank'><img style={{width:'100%'}} src={img} alt={img}/></a> 
+                : <img style={{width:'100%'}} src={img} alt={img}/>}
                 <div style={{width:'100%'}} className='text'>
                     {title!=='' ? <><p className='h2 font-200'>{title}</p><br></br></> : null}
-                    <p className='h5 font-200'>{text}</p>
+                    <p className={`${textSize} font-200`}>{text}</p>
                 </div>
             </div>
+            : orientation ==='text-top' ? <div className='img-text-container' style={{
+                display: 'block'
+            }}>
+                <div style={{width:'100%'}} className='text'>
+                    {title!=='' ? <><p className='h2 font-200'>{title}</p><br></br></> : null}
+                    <p className={`${textSize} font-200`}>{text}</p>
+                </div>
+                {imglink !== '' ? <a href={imglink} target='_blank'><img style={{width:'100%'}} src={img} alt={img}/></a> 
+                : <img style={{width:'100%'}} src={img} alt={img}/>}            </div>
+            : null
         }
     </>
   )

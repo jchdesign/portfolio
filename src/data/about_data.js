@@ -30,6 +30,10 @@ const about_data = {
             year: '2023'
         },
         {
+            name: 'Kardder',
+            year: '2022'
+        },
+        {
             name: 'UCLA Computational Vision and Learning Lab',
             year: '2021 - 2023'
         }

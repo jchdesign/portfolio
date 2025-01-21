@@ -1,6 +1,6 @@
-function HyperLink({text, url}) {
+function HyperLink({text, url, size='h5'}) {
   return (
-    <a className='link' href={url} target='_blank'>{text}</a>
+    <a className={`text-link ${size}`} href={url} target='_blank'>{text}</a>
   )
 }
 
