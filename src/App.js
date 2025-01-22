@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 import { useEffect } from 'react';
 import './App.css';
 import about_data from './data/about_data';
@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <HashRouter basename='/'>
       <Routes>
         <Route exact path='/' element={
           <main>
@@ -41,7 +41,7 @@ function App() {
 
         <Route path='/Recollections' element={<Recollections/>}></Route>
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
