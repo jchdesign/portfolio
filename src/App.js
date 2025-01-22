@@ -13,6 +13,7 @@ import Reflection from './pages/Reflection';
 import Recollections from './pages/Recollections';
 import OniriaHill from './pages/OniriaHill';
 import DirtyLaundry from './pages/DirtyLaundry';
+import ComingSoon from './pages/ComingSoon';
 
 function App() {
   useEffect(() => {
@@ -31,8 +32,8 @@ function App() {
         }>
         </Route>
         <Route path='/About' element={<About data={about_data}/>}></Route>
-        <Route path='/MultiSim_SimManager' element={<MultiSim_SimManager/>}></Route>
-        <Route path='/Nearby' element={<Nearby/>}></Route>
+        <Route path='/MultiSim_SimManager' element={<ComingSoon/>}></Route>
+        <Route path='/Nearby' element={<ComingSoon/>}></Route>
         <Route path='/Reflection' element={<Reflection/>}></Route>
 
         <Route path='/OniriaHill' element={<OniriaHill/>}></Route>
