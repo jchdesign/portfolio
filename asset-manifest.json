@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.73594f63.css",
-    "main.js": "/portfolio/static/js/main.0ef611d3.js",
+    "main.js": "/portfolio/static/js/main.6811fcee.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/uwma.jpg": "/portfolio/static/media/uwma.fb8bdb2a033ef2979bf5.jpg",
     "static/media/OHPoster.png": "/portfolio/static/media/OHPoster.a4e3316903387b63a554.png",
@@ -11,21 +11,29 @@
     "static/media/june.jpg": "/portfolio/static/media/june.e4c77e7bab0750f5211d.jpg",
     "static/media/azurei.jpg": "/portfolio/static/media/azurei.67eba99e3ab3b21c1ca2.jpg",
     "static/media/sanctuaries.jpg": "/portfolio/static/media/sanctuaries.2d0aa2bea331a43825ee.jpg",
+    "static/media/Cover.png": "/portfolio/static/media/Cover.a68bf9c608951a3ba140.png",
+    "static/media/SimManager.png": "/portfolio/static/media/SimManager.6026a0b93b9fdd4805aa.png",
     "static/media/me.jpg": "/portfolio/static/media/me.79a8ea5be7a53f9554fe.jpg",
     "static/media/VVSS.jpg": "/portfolio/static/media/VVSS.d881fce0f298c5257b7b.jpg",
     "static/media/DLPoster.png": "/portfolio/static/media/DLPoster.b3dadd5283f4b0e890c9.png",
+    "static/media/UXWork.png": "/portfolio/static/media/UXWork.e92534df79eb664de0a2.png",
     "static/media/Figure1.jpg": "/portfolio/static/media/Figure1.e3d93fb93b75f2f3bc58.jpg",
+    "static/media/MultiSim.png": "/portfolio/static/media/MultiSim.633b51fedde6da01b253.png",
     "static/media/remembered.jpg": "/portfolio/static/media/remembered.497f5b7ae289caff9aa3.jpg",
+    "static/media/Team.png": "/portfolio/static/media/Team.f8836e96d450a94898ca.png",
+    "static/media/TeamCollab.png": "/portfolio/static/media/TeamCollab.b7f030f4c836b97fad36.png",
+    "static/media/UXCollab.png": "/portfolio/static/media/UXCollab.0027b10e922158dbb521.png",
+    "static/media/DevCollab.png": "/portfolio/static/media/DevCollab.4c13b916c4e33d24adba.png",
     "static/media/github.png": "/portfolio/static/media/github.b78ea5a9902574cc9826.png",
     "static/media/spotify.png": "/portfolio/static/media/spotify.ff2c6295cb36a5763e81.png",
     "static/media/youtube.png": "/portfolio/static/media/youtube.05fb2d0567f07d3f09ba.png",
     "index.html": "/portfolio/index.html",
     "main.73594f63.css.map": "/portfolio/static/css/main.73594f63.css.map",
-    "main.0ef611d3.js.map": "/portfolio/static/js/main.0ef611d3.js.map",
+    "main.6811fcee.js.map": "/portfolio/static/js/main.6811fcee.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73594f63.css",
-    "static/js/main.0ef611d3.js"
+    "static/js/main.6811fcee.js"
   ]
 }
