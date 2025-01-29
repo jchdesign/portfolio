@@ -1,4 +1,8 @@
 import Figure1 from '../assets/Figure1.jpg';
+import Chirality from '../assets/Reflection/Chirality.png';
+import MultiSimCover from '../assets/MultiSim_SimManager/Cover.png';
+import NearbyFlowFinal from '../assets/Nearby/FlowFinal.png';
+import Overview from '../assets/SFParksRec/Overview.png';
 
 const work_data = [
     {
@@ -26,17 +30,25 @@ const work_data = [
             },
             {
                 name: 'MAHARSHI PATEL',
-                role: 'ENGINEER'
+                role: 'DEVELOPER'
+            },
+            {
+                name: 'Guy Rouleau',
+                role: 'Customer-Facing Engineer'
+            },
+            {
+                name: 'Reid Spence',
+                role: 'Customer-Facing Engineer'
             }
         ],
-        img: Figure1,
-        overview: 'Overview here',
+        img: MultiSimCover,
+        overview: 'Leading a redesign of the workflow between Simulink applications Multiple Simulations and Simulation Manager.',
         link: '/MultiSim_SimManager'
     },
     {
         key: 2,
-        title: 'Nearby Redesigned',
-        listing: 'Nearby Redesigned',
+        title: 'Nearby: Redesigned',
+        listing: 'Nearby: Redesigned',
         role: ['JEFF CHANG', 'UI/UX Design Intern'],
         credit: 'Kardder',
         arranged: true,
@@ -57,7 +69,7 @@ const work_data = [
                 role: 'UI/UX Design Intern'
             }
         ],
-        img: Figure1,
+        img: NearbyFlowFinal,
         overview: "Redesigning Nearby - Kardder's holy grail feature - to better present Nearby as the core feature of Kardder.",
         arranged: true,
         link: '/Nearby'
@@ -67,11 +79,11 @@ const work_data = [
         title: 'WHAT DO WE SEE IN A REFLECTION?: Seeing Chirality Correlates with Aesthetic Perception',
         listing: 'WHAT DO WE SEE IN A REFLECTION?',
         role: ['JEFF CHANG', 'Research Assistant'],
-        credit: 'UCLA CVL',
+        credit: 'UCLA CVL Lab',
         arranged: true,
         duration: 'SEPT 2022 - MAR 2023',
         collab: true,
-        collab_credits: 'UCLA CVL',
+        collab_credits: 'The UCLA CVL Lab',
         collaborators: [
             {
                 name: 'Yi-Chia Chen',
@@ -82,44 +94,25 @@ const work_data = [
                 role: 'Principal Investigator'
             }
         ],
-        img: Figure1,
-        overview: 'A psychological research study investigating the relationship between our perception of mirrored images and our aesthetic experience, in collaboration with Yi-Chia Chen and Hongjing Lu from the UCLA Computational Vision and Learning Lab',
+        img: Chirality,
+        overview: 'A psychological research study investigating the relationship between our perception of mirrored images and our aesthetic experience, in collaboration with Dr. Yi-Chia Chen and Dr. Hongjing Lu from the UCLA Computational Vision and Learning Lab',
         link: '/Reflection'
     },
     {
-        key: 3,
-        title: 'WHAT DO WE SEE IN A REFLECTION?: Seeing Chirality Correlates with Aesthetic Perception',
-        listing: 'WHAT DO WE SEE IN A REFLECTION?',
-        role: ['JEFF CHANG', 'Research Assistant'],
-        credit: 'UCLA CVL',
-        arranged: true,
-        duration: 'SEPT 2022 - MAR 2023',
-        collab: true,
-        collab_credits: 'UCLA CVL',
-        collaborators: [
-            {
-                name: 'Yi-Chia Chen',
-                role: 'Lead Researcher'
-            },
-            {
-                name: 'Hongjing Lu',
-                role: 'Principal Investigator'
-            }
-        ],
-        img: Figure1,
-        overview: 'A psychological research study investigating the relationship between our perception of mirrored images and our aesthetic experience, in collaboration with Yi-Chia Chen and Hongjing Lu from the UCLA Computational Vision and Learning Lab.',
-        link: '/Reflection',
-
         key: 4,
         title: 'SF Parks & Rec Picnic Reservation Redesign',
         listing: 'SF PARKS & REC REDESIGN',
         role: ['JEFF CHANG', 'UX Designer'],
         credit: 'SF Parks & Rec',
         arranged: true,
-        duration: 'SEPT 2023 - OCT 2023',
-        collab: true,
-        img: Figure1,
-        overview: 'Overview Here',
+        duration: 'Sept 2023 - Oct 2023',
+        collab: false,
+        collab_credits: 'Product Design Studio Project',
+        collaborators: [
+
+        ],
+        img: Overview,
+        overview: 'Redesigning the online reservation flow in the SF Parks and Recreation website - streamlining, organizing, and reimagining critical features of the reservation process.',
         link: '/SFParksRec',
     },
     {
@@ -129,7 +122,7 @@ const work_data = [
         role: ['JEFF CHANG', 'Product Manager, Designer, Enginner'],
         credit: 'Chang, Guo, Johal, Wei',
         arranged: false,
-        collab: true,
+        collab: false,
         collab_credits: 'UC Berkeley School of Information',
         duration: 'Oct 2024 - Present',
         collaborators: [

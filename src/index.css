@@ -31,10 +31,10 @@ body {
 }
 
 main {
-  margin: 72px auto;
+  margin: 50px auto;
   white-space: pre-line;
   background-color: var(--bg-secondary);
-  width: 80%
+  width: 85%
 }
 
 .container {
@@ -745,7 +745,7 @@ p {
 }
 
 .title1 {
-  font-size: 132px;
+  font-size: 124px;
   line-height: 100%;
 }
 

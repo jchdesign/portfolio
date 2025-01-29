@@ -14,6 +14,7 @@ import Recollections from './pages/Recollections';
 import OniriaHill from './pages/OniriaHill';
 import DirtyLaundry from './pages/DirtyLaundry';
 import ComingSoon from './pages/ComingSoon';
+import SFParksRec from './pages/SFParksRec';
 
 function App() {
   useEffect(() => {
@@ -32,9 +33,11 @@ function App() {
         }>
         </Route>
         <Route path='/About' element={<About data={about_data}/>}></Route>
-        <Route path='/MultiSim_SimManager' element={<ComingSoon/>}></Route>
-        <Route path='/Nearby' element={<ComingSoon/>}></Route>
+        <Route path='/MultiSim_SimManager' element={<MultiSim_SimManager/>}></Route>
+        <Route path='/Nearby' element={<Nearby/>}></Route>
         <Route path='/Reflection' element={<Reflection/>}></Route>
+        <Route path='/SFParksRec' element={<SFParksRec/>}></Route>
+
 
         <Route path='/OniriaHill' element={<OniriaHill/>}></Route>
         <Route path='/DirtyLaundry' element={<DirtyLaundry/>}></Route>

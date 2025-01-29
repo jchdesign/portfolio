@@ -1,6 +1,6 @@
 import HyperLink from './HyperLink';
 
-function ImageTextSection({orientation='img-text', img, imglink='', hyperlink='', hyperlinkText='Link', title='', text, textSize='h5'}) {
+function ImageTextSection({orientation='img-text', img, imglink='', hyperlink='', hyperlinkText='Link', title='', text, textSize='h4'}) {
   return (
     <>
         {
@@ -32,7 +32,7 @@ function ImageTextSection({orientation='img-text', img, imglink='', hyperlink=''
             : orientation ==='text-top' ? <div className='img-text-container' style={{
                 display: 'block'
             }}>
-                <div style={{width:'100%'}} className='text'>
+                <div style={{width:'100%', paddingBottom:'0px'}} className='text'>
                     {title!=='' ? <><p className='h2 font-200'>{title}</p><br></br></> : null}
                     <p className={`${textSize} font-200`}>{text}</p>
                 </div>
