@@ -2,14 +2,23 @@ import HyperLink from './HyperLink'
 import TitleUL from './TitleUL'
 
 function HomeGrid() {
+  var currentDate = new Date()
+  currentDate.setHours(currentDate.getHours() + 2);
+
+  var dateDisplay = currentDate.getDate() +' '
+    + currentDate.toLocaleString('default', { month: 'long' }) + ' '
+    + currentDate.getFullYear()
+
+  var timeDisplay = currentDate.getHours() + ":00"
+
   return (
     <div id='home-grid'>
         <div className='grid-item'>
           <TitleUL text='THE JC SYMPHONY ORCHESTRA PRESENTS...' size='h4'/>
         </div>
         <div className='grid-item text-align-right flex-align-end'>
-          <p className='h5 font-200' >27 DECEMBER 2024</p>
-          <span className='h5 font-200'>19:00 @ <HyperLink text='THE WILTERN' url='https://www.wiltern.com/' size='h5 font-300'/></span>
+          <p className='h5 font-200' >{dateDisplay}</p>
+          <span className='h5 font-200'>{timeDisplay} @ <HyperLink text='THE WILTERN' url='https://www.wiltern.com/' size='h5 font-300'/></span>
         </div>
         <div className='grid-item'>
           <p className='title1 font-100'>WE ARE ALL<br></br>STORIES<br></br>TO BE TOLD</p>
