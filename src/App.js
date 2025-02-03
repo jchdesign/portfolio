@@ -37,6 +37,7 @@ function App() {
         <Route path='/Nearby' element={<Nearby/>}></Route>
         <Route path='/Reflection' element={<Reflection/>}></Route>
         <Route path='/SFParksRec' element={<SFParksRec/>}></Route>
+        <Route path='/Interlude' element={<ComingSoon/>}></Route>
 
 
         <Route path='/OniriaHill' element={<OniriaHill/>}></Route>
