@@ -7,7 +7,7 @@ const film_data = [
         title: 'Oniria Hill',
         listing: 'Oniria Hill',
         role: ['JEFF CHANG', 'Composer'],
-        credit: 'CHUCHO MARTÍNEZ', // For the program listing
+        credit: 'MARTÍNEZ', // For the program listing
         arranged: true,
         duration: 'OCT 2024 - PRESENT',
         collab: true,
