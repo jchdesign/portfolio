@@ -742,10 +742,12 @@ p {
 .title1 {
   font-size: 124px;
   line-height: 105%;
+  text-transform: uppercase;
 }
 
 .title2 {
   font-size: 72px;
+  text-transform: uppercase;
 }
 
 .heading-padded {
