@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc7229d5.css",
+    "main.css": "/static/css/main.c88a860f.css",
     "main.js": "/static/js/main.153269ea.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/uwma.jpg": "/static/media/uwma.fb8bdb2a033ef2979bf5.jpg",
@@ -61,12 +61,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.c33ab1ced7c9937e15e703feabc8c16e.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.0bdeb7d18f6797f251acf80de329b395.svg",
     "static/media/email.svg": "/static/media/email.783ab87f34859c1dde82fc825fb64928.svg",
-    "main.dc7229d5.css.map": "/static/css/main.dc7229d5.css.map",
+    "main.c88a860f.css.map": "/static/css/main.c88a860f.css.map",
     "main.153269ea.js.map": "/static/js/main.153269ea.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc7229d5.css",
+    "static/css/main.c88a860f.css",
     "static/js/main.153269ea.js"
   ]
 }
