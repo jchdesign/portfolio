@@ -34,7 +34,7 @@ function Nearby() {
         text={"Nearby, a page showing active users within a user's quarter mile radius, is Kardder's holy grail feature.\n\nHow can we better present Nearby as Kardder's most important, stand-out feature?"}
       />
       <ListSection
-        title="What's the deal with nearby?"
+        title="What's the deal with Nearby?"
         subtitle="Conducting a product teardown of Nearby, we uncovered several problems with Nearby that hinders its presentation as Kardder's centerpiece:"
         list={[
           {

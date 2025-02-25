@@ -1,8 +1,8 @@
-import email from '../assets/email.png';
-import github from '../assets/github.png';
-import linkedin from '../assets/linkedin.png';
-import youtube from '../assets/youtube.png';
-import spotify from '../assets/spotify.png';
+import email from '../assets/email.svg';
+import github from '../assets/github.svg';
+import linkedin from '../assets/linkedin.svg';
+import youtube from '../assets/youtube.svg';
+import spotify from '../assets/spotify.svg';
 
 
 function Footer() {

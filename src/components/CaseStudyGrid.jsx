@@ -12,7 +12,7 @@ function CaseStudyGrid({data}) {
                 <TitleUL text={data.collab_credits} size='h4'/>}
             </div>
             <div className='grid-item text-align-right flex-align-end'>
-                <p className='h5 font-200'>{data.duration}</p>
+                <p className='h5'>{data.duration}</p>
             </div>
             <div className='grid-item'>
                 <p className='title2 font-100'>{data.title}</p>
@@ -25,18 +25,18 @@ function CaseStudyGrid({data}) {
         </div>
         <div className='case-study-credits-grid'>
         <div className='grid-item'>
-            <p className='h4 font-100 font-grey heading-padded'>OVERVIEW</p>
+            <p className='h4 font-400 font-grey heading-padded'>OVERVIEW</p>
             <p className='h4'>{data.overview}</p>
         </div>
         <div className='grid-item' style={!data.collab ? {gridRow:'1/4'}:{}}>
-            <p className='h4 font-100 font-grey heading-padded'>DIRECTED BY</p>
+            <p className='h4 font-400 font-grey heading-padded'>DIRECTED BY</p>
             <ProgramSubItem 
                 listing={data.role[0]}
                 credit={data.role[1]}
             />
         </div>
         {data.collab && (<div className='grid-item'>
-            <p className='h4 font-100 font-grey heading-padded'>FEATURING</p>
+            <p className='h4 font-400 font-grey heading-padded'>FEATURING</p>
             {data.collaborators.map((item) => (
                 <ProgramSubItem 
                     listing={item.name}

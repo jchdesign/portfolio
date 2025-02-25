@@ -1,7 +1,11 @@
 import Me from '../assets/me.jpg';
 
-const about_data = {
-    image: Me,
+const about_data = [{
+    key: 1,
+    title: 'JEFF CHANG: UNABRIDGED',
+    listing: 'JEFF CHANG: UNABRIDGED',
+    img: Me,
+    miniOverview: "A word from the director of tonight's performance.",
     education: [
         {
             name: 'University of California, Berkeley',
@@ -37,7 +41,8 @@ const about_data = {
             name: 'UCLA Computational Vision and Learning Lab',
             year: '2021 - 2023'
         }
-    ]
-}
+    ],
+    link: '/About'
+}]
 
 export default about_data

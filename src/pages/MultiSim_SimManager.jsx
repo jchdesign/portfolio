@@ -27,10 +27,6 @@ function MultiSim_SimManager() {
   return (
     <main>
       <CaseStudyGrid data={work_data[0]}/>
-      <LayeredTextSection
-        text1="Director's Note"
-        text2={"Due to my NDA, no artifacts or details of the work and solution can be displayed. \n\nThe following presentation will focus on the high-level elements of the process, collaboration, and leadership that defines the work I do."}
-      />
       <SectionDivider text='Movement I: Two Applications, In Parallel'/>
       <LayeredTextSection
         orientation='small-big'

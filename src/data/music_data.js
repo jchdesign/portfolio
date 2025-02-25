@@ -10,16 +10,17 @@ import uwma from '../assets/Recollections/uwma.jpg';
 const music_data = [
     {
         key: 1,
-        title: 'Recollections',
-        listing: 'Recollections',
-        role: ['JEFF CHANG', 'Composer, Producer'],
+        title: 'RECOLLECTIONS',
+        listing: 'RECOLLECTIONS',
+        role: ['JEFF CHANG', 'COMPOSER, PRODUCER'],
         credit: 'Chang',
         arranged: false,
         collab: false,
         collab_credits: 'My independent artist project',
         duration: 'MAY 2020 - Present',
         img: rcltns,
-        overview: 'My independent artist project, walking through chapters of my life. Exploring fervor, endearment, and hope in a 12-tone alphabet.',
+        miniOverview: 'My independent artist project, walking through chapters of my life. Exploring fervor, endearment, and hope in a 12-tone alphabet.',
+        overview: 'My independent artist project, exploring fervor, endearment, and hope in a 12-tone alphabet.',
         releases: [
             {
                 key: 1,

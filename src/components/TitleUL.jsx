@@ -1,6 +1,6 @@
-function TitleUL({text, size='h3'}) {
+function TitleUL({text, size='h2', style}) {
   return (
-    <div className={`title-ul ${size}`}>{text}</div>
+    <div style = {style} className={`title-ul ${size}`}>{text}</div>
   )
 }
 

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import arrowLeft from '../assets/arrow-left.png'
+import arrowLeft from '../assets/arrow-left.svg'
 
 function ReturnHeader({project}) {
   return (
