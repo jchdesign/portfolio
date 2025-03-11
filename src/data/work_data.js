@@ -85,7 +85,7 @@ const work_data = [
         arranged: true,
         duration: 'SEPT 2022 - MAR 2023',
         collab: true,
-        collab_credits: 'THE UCLA CVL Lab',
+        collab_credits: 'THE UCLA CVL LAB',
         collaborators: [
             {
                 name: 'YI-CHIA CHEN',
@@ -148,7 +148,7 @@ const work_data = [
             }
         ],
         img: InterludeLogo,
-        miniOverview: 'Designing, researching, and engineering a platform for the growth of emerging artists.',
+        miniOverview: 'Designing, researching, and engineering a platform supporting the growth of emerging artists.',
         overview: 'Overview here',
         link: '/Interlude'
     },

@@ -11,10 +11,11 @@ import HomeGrid from '../components/HomeGrid';
 import ProgramList from '../components/ProgramList';
 import Footer from '../components/Footer';
 import ProgramListCards from '../components/ProgramListCards';
+import RolesContainer from '../components/RolesContainer';
 
 function Home() {
     const { hash } = useLocation();
-    
+
     useEffect(() => {
         window.scrollTo(0, 0);
        }, []);
@@ -31,7 +32,7 @@ function Home() {
   return (
     <main>
         <HomeGrid/>
-        <ProgramList/>
+        {/* <ProgramList/> */}
         <ProgramListCards 
             title={'SUITE I: STORIES OF TECHNOLOGY'}
             id={'suite-1'}

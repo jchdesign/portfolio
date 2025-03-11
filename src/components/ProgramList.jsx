@@ -1,23 +1,23 @@
-import ProgramItem from './ProgramItem';
-import work_data from '../data/work_data';
-import film_data from '../data/film_data';
-import music_data from '../data/music_data';
+import ProgramSubItem from './ProgramSubItem';
 import TitleUL from './TitleUL';
 
 function ProgramList() {
   return (
     <section className='container'>
-        <TitleUL text="TONIGHT'S PROGRAM" size='h2' style={{marginBottom: '1em'}}/>
-        <ProgramItem
+        <TitleUL text="TONIGHT'S PROGRAM" size='h4 font-600' style={{marginBottom: '1em'}}/>
+        <ProgramSubItem
           listing='SUITE I: STORIES OF TECHNOLOGY' credit='CHANG' link='#suite-1'
-          caption='Featuring performances by MathWorks, Kardder, and UCLA CVL'/>
-        <ProgramItem
+          caption='Featuring performances by MathWorks, Kardder, and UCLA CVL'
+          />
+        <ProgramSubItem
           listing='SUITE II: STORIES OF MOTION PICTURE' credit='CHANG' link='#suite-2'
-          caption='Featuring performances by CAP Studios'/>
-        <ProgramItem
+          caption='Featuring performances by CAP Studios'
+          />
+        <ProgramSubItem
           listing='SUITE III: STORIES OF MUSIC' credit='CHANG' link='#suite-3'
-          caption='Featuring performances by Recollections'/>
-        <ProgramItem
+          caption='Featuring performances by Recollections'
+          />
+        <ProgramSubItem
           listing='SUITE IV: STORIES OF ME' credit='CHANG' link='#suite-4'/>
     </section>
   )

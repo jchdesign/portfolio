@@ -16,7 +16,7 @@ const music_data = [
         credit: 'Chang',
         arranged: false,
         collab: false,
-        collab_credits: 'My independent artist project',
+        collab_credits: 'MY INDEPENDENT ARTIST PROJECT',
         duration: 'MAY 2020 - Present',
         img: rcltns,
         miniOverview: 'My independent artist project, walking through chapters of my life. Exploring fervor, endearment, and hope in a 12-tone alphabet.',

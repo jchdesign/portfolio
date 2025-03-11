@@ -1,6 +1,9 @@
+import { Link } from 'react-router-dom';
+
 import HyperLink from './HyperLink';
 import TitleUL from './TitleUL';
-import ProgramList from './ProgramList';
+import ProgramSubItem from './ProgramSubItem';
+import RolesContainer from './RolesContainer';
 
 function HomeGrid() {
   var currentDate = new Date()
@@ -15,7 +18,7 @@ function HomeGrid() {
   return (
     <div id='home-grid'>
         <div className='grid-item'>
-          <TitleUL text='THE JC SYMPHONY ORCHESTRA PRESENTS...' size='h5'/>
+          <TitleUL text='THE JC SYMPHONY ORCHESTRA PRESENTS...' size='h5 font-600'/>
         </div>
         <div className='grid-item text-align-right flex-align-end'>
           <p className='h5 font-300 uppercase' >{dateDisplay}</p>
@@ -28,7 +31,7 @@ function HomeGrid() {
         </div>
         <div className='grid-item'>
           <div className='block-container-2'>
-          <TitleUL text='DIRECTED BY' size='h5'/>
+          <TitleUL text='DIRECTED BY' size='h5 font-600'/>
           </div>
         </div>
         <div className='grid-item'>
@@ -40,11 +43,26 @@ function HomeGrid() {
             <p className='h5'>PRODUCER</p>
           </div>
         </div>
-        {/* <div className='grid-item'>
-          <ProgramList/>
+        <div className='grid-item' style={{padding:'50px'}}>
+          <TitleUL text="TONIGHT'S PROGRAM" size='h4 font-600' style={{marginBottom: '1em'}}/>
+          <ProgramSubItem
+            listing='SUITE I: STORIES OF TECHNOLOGY' credit='CHANG' link='#suite-1'
+            caption='Featuring performances by MathWorks, Kardder, and UCLA CVL'
+            />
+          <ProgramSubItem
+            listing='SUITE II: STORIES OF MOTION PICTURE' credit='CHANG' link='#suite-2'
+            caption='Featuring performances by CAP Studios'
+            />
+          <ProgramSubItem
+            listing='SUITE III: STORIES OF MUSIC' credit='CHANG' link='#suite-3'
+            caption='Featuring performances by Recollections'
+            />
         </div>
-        <div className='grid-item'>
-        </div> */}
+        <div className='grid-item' style={{padding: '50px'}}>
+          <TitleUL text="ABOUT THE DIRECTOR" size='h4 font-600' style={{marginBottom: '1em'}}/>
+          <p className='h5' style={{paddingBottom: "1em"}}>WEAVING TOGETHER 3 YEARS OF PRODUCT DESIGN, 5 YEARS OF MUSIC COMPOSITION, AND A LIFETIME OF STORYTELLING, JEFF CREATES WORKS INSPIRED BY AND INSPIRING STORIES.</p>
+          <Link to='/About' className='text-link h5 font-600'>LEARN MORE</Link>
+        </div>
     </div>
   )
 }

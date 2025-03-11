@@ -2,8 +2,8 @@ import Me from '../assets/me.jpg';
 
 const about_data = [{
     key: 1,
-    title: 'JEFF CHANG: UNABRIDGED',
-    listing: 'JEFF CHANG: UNABRIDGED',
+    title: 'JEFF CHANG: ABRIDGED',
+    listing: 'JEFF CHANG: ABRIDGED',
     img: Me,
     miniOverview: "A word from the director of tonight's performance.",
     education: [

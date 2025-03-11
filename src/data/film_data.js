@@ -20,7 +20,7 @@ const film_data = [
         ],
         img: OHPoster,
         miniOverview: 'Loss, grief, and hope in a score exploring the rift between memory and reality.',
-        overview: "In a score that explores the rift between memory and reality, I embrace CHUCHO MARTÍNEZ's vision of a journey through loss, grief, and hope.",
+        overview: "In a score that explores the rift between memory and reality, I embrace Chucho Martínez's vision of a journey through loss, grief, and hope.",
         link: '/OniriaHill'
     },
     {
@@ -28,7 +28,7 @@ const film_data = [
         title: 'DIRTY LAUNDRY',
         listing: 'DIRTY LAUNDRY',
         role: ['JEFF CHANG', 'Composer, Sound Designer, Boom Op'],
-        credit: 'CAP Studios', // For the program listing
+        credit: 'CAP STUDIOS', // For the program listing
         arranged: true,
         duration: 'Sept 2024 - Dec 2024',
         collab: true,
