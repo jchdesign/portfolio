@@ -246,7 +246,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 1.5em;
+  gap: 1em;
 }
 
 .footer-img {
@@ -312,7 +312,6 @@ p {
 
 @media only screen and (max-width: 768px) {
   #home-grid {
-    grid-template-columns: 1fr 3fr;
     grid-auto-rows: max-content;
   }
 
@@ -325,7 +324,23 @@ p {
   }
 
   #home-grid > .grid-item:nth-child(-n+3) {
-    grid-column: 1 / 4;
+    grid-column: 1 / 13;
+  }
+
+  #home-grid > .grid-item:nth-child(4) {
+    grid-column: 1 / 8;
+  }
+
+  #home-grid > .grid-item:nth-child(5) {
+    grid-column: 8 / 13;
+  }
+
+  #home-grid > .grid-item:nth-child(6) {
+    grid-column: 1 / 13;
+  }
+
+  #home-grid > .grid-item:nth-child(7) {
+    grid-column: 1 / 13;
   }
 
   .case-study-grid {
@@ -480,6 +495,18 @@ p {
   text-align: right;
   margin-left: auto; 
   margin-right: 0;
+}
+
+.video-container {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.video-full {
+  width: 100%;
+  height: 40vw;
+  border: none;
 }
 
 @media only screen and (max-width: 768px) {

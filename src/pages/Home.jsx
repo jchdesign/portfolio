@@ -49,7 +49,7 @@ function Home() {
             list={music_data}
         />
         <ProgramListCards 
-            title={'SUITE IV: STORIES OF ME'}
+            title={'ENCORE: STORIES OF ME'}
             id={'suite-4'}
             list={about_data}
         />

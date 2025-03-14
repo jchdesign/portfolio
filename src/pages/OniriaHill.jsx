@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import film_data from '../data/film_data';
 
 import CaseStudyGrid from '../components/CaseStudyGrid';
+import VideoEmbed from '../components/VideoEmbed';
 
 function OniriaHill() {
     useEffect(() => {
@@ -11,7 +12,8 @@ function OniriaHill() {
 
   return (
     <main>
-        <CaseStudyGrid data={film_data[0]}/>
+        <CaseStudyGrid data={film_data[1]}/>
+        {/* <VideoEmbed title='DEMO' source='https://www.youtube.com/embed/t24fFI8PnZk?start=0&end=92'/> */}
     </main>
   )
 }

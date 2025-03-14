@@ -27,7 +27,7 @@ function HomeGrid() {
         <div className='grid-item'>
             <p className='h1 font-400 text-align-center'>WE ARE ALL STORIES TO BE TOLD</p>
             <br></br>
-            <p className='h5'>A JOURNEY THROUGH DESIGN, RESEARCH, AND MUSIC</p>
+            <p className='h5 text-align-center'>A JOURNEY THROUGH DESIGN, RESEARCH, AND MUSIC</p>
         </div>
         <div className='grid-item'>
           <div className='block-container-2'>
@@ -38,12 +38,12 @@ function HomeGrid() {
           <div className='home-credits-container'>
             <p className='h5 font-600'>JEFF CHANG</p> 
             <div className='square'></div>
-            <p className='h5'>COMPOSER</p>
             <p className='h5'>DESIGNER</p>
-            <p className='h5'>PRODUCER</p>
+            <p className='h5'>RESEARCHER</p>
+            <p className='h5'>COMPOSER</p>
           </div>
         </div>
-        <div className='grid-item' style={{padding:'50px'}}>
+        <div className='grid-item'>
           <TitleUL text="TONIGHT'S PROGRAM" size='h4 font-600' style={{marginBottom: '1em'}}/>
           <ProgramSubItem
             listing='SUITE I: STORIES OF TECHNOLOGY' credit='CHANG' link='#suite-1'
@@ -58,7 +58,7 @@ function HomeGrid() {
             caption='Featuring performances by Recollections'
             />
         </div>
-        <div className='grid-item' style={{padding: '50px'}}>
+        <div className='grid-item'>
           <TitleUL text="ABOUT THE DIRECTOR" size='h4 font-600' style={{marginBottom: '1em'}}/>
           <p className='h5' style={{paddingBottom: "1em"}}>WEAVING TOGETHER 3 YEARS OF PRODUCT DESIGN, 5 YEARS OF MUSIC COMPOSITION, AND A LIFETIME OF STORYTELLING, JEFF CREATES WORKS INSPIRED BY AND INSPIRING STORIES.</p>
           <Link to='/About' className='text-link h5 font-600'>LEARN MORE</Link>
