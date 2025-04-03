@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.78fc3e69.css",
-    "main.js": "/static/js/main.74f14798.js",
+    "main.js": "/static/js/main.f12df235.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
+    "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
     "static/media/uwma.jpg": "/static/media/uwma.fb8bdb2a033ef2979bf5.jpg",
     "static/media/Crazy8.png": "/static/media/Crazy8.c5a730d194c35874378d.png",
     "static/media/OHPoster.png": "/static/media/OHPoster.a4e3316903387b63a554.png",
@@ -27,7 +28,6 @@
     "static/media/ProfileChanges.png": "/static/media/ProfileChanges.35181802e3ec8c6b51e9.png",
     "static/media/FlowBefore.png": "/static/media/FlowBefore.a29eff5f738cd44c4de9.png",
     "static/media/Stimuli.png": "/static/media/Stimuli.b159540fe0b8e22f4d86.png",
-    "static/media/Cover.png": "/static/media/Cover.a68bf9c608951a3ba140.png",
     "static/media/SimManager.png": "/static/media/SimManager.6026a0b93b9fdd4805aa.png",
     "static/media/Affinity.png": "/static/media/Affinity.5ca015b128a2d1b5764d.png",
     "static/media/EnlargingNearby.png": "/static/media/EnlargingNearby.ea90a5b4f6041c966e95.png",
@@ -37,8 +37,10 @@
     "static/media/Overview.png": "/static/media/Overview.fb56a0cffa9d779f7271.png",
     "static/media/DLPoster.png": "/static/media/DLPoster.83d98ec5ce8602d27446.png",
     "static/media/interlude_cover.png": "/static/media/interlude_cover.15747d8d167fd482e476.png",
+    "static/media/interlude_final.png": "/static/media/interlude_final.92e0bad742fbdc512950.png",
     "static/media/Problem2.png": "/static/media/Problem2.8f5a52ee192ca74a2b06.png",
     "static/media/UXWork.png": "/static/media/UXWork.00d6cec6944905ff4e82.png",
+    "static/media/Cover.png": "/static/media/Cover.5ce7c0d0d31a2f8f7bda.png",
     "static/media/Problem1.png": "/static/media/Problem1.200e0d9bc8cce8b0529a.png",
     "static/media/Figure1.jpg": "/static/media/Figure1.e3d93fb93b75f2f3bc58.jpg",
     "static/media/Problem3.png": "/static/media/Problem3.a08564e48ac454b1ea39.png",
@@ -62,11 +64,11 @@
     "static/media/arrow-left.svg": "/static/media/arrow-left.0bdeb7d18f6797f251acf80de329b395.svg",
     "static/media/email.svg": "/static/media/email.783ab87f34859c1dde82fc825fb64928.svg",
     "main.78fc3e69.css.map": "/static/css/main.78fc3e69.css.map",
-    "main.74f14798.js.map": "/static/js/main.74f14798.js.map",
+    "main.f12df235.js.map": "/static/js/main.f12df235.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78fc3e69.css",
-    "static/js/main.74f14798.js"
+    "static/js/main.f12df235.js"
   ]
 }
