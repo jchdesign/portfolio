@@ -6,6 +6,7 @@ import june from '../assets/Recollections/june.jpg';
 import remembered from '../assets/Recollections/remembered.jpg';
 import sanctuaries from '../assets/Recollections/sanctuaries.jpg';
 import uwma from '../assets/Recollections/uwma.jpg';
+import wnsfa from '../assets/Recollections/wnsfa.jpg';
 
 const music_data = [
     {
@@ -24,48 +25,55 @@ const music_data = [
         releases: [
             {
                 key: 1,
+                name: "We're Not So Far Away",
+                text: "A song about everything that makes me, me. Listen closely and you may hear the places I've been, the people I've held close, the years that I've lived, and the encounters I cherish - close and far - that created the person talking to you today.",
+                img: wnsfa,
+                link: 'https://youtu.be/OCk8RNeGNSU?si=GrMI-FCFJrXQ35hG'
+            },
+            {
+                key: 2,
                 name: 'Acedia',
                 text: "A song about finishing what's been started.\n\n\"...at the core of every project, there's an idea. An idea of a moment, a feeling, a person, a place, a memory. So long as it's there, you can take it anywhere. And sometimes, all you need is a reminder of why you started writing in the first place. And why it mattered so much.\"",
                 img: acedia,
                 link: 'https://youtu.be/bnH2RJnple8?si=_ZU7_agckhJZaQvF'
             },
             {
-                key: 2,
+                key: 3,
                 name: 'Sanctuaries',
                 text: "The song I let speak for itself.",
                 img: sanctuaries,
                 link: 'https://youtu.be/vJBPJOS9izo?si=Ga-Tge3YvY53DwLA'
             },
             {
-                key: 3,
+                key: 4,
                 name: 'Azure II: Oceans Apart',
                 text: "A piece of reminiscing on places I could have been, people I've been apart from for far too long.",
                 img: azureii,
                 link: 'https://youtu.be/u5fS_jS3YVE?si=lw2LJ1hjpO34nQCC'
             },
             {
-                key: 4,
+                key: 5,
                 name: 'June',
                 text: "A piece about the sporadic and beautiful encounters that find us and inspire us when we least expect it.",
                 img: june,
                 link: 'https://youtu.be/jA47BZafD7g?si=WhRus0Mdd1e2Eawe'
             },
             {
-                key: 5,
+                key: 6,
                 name: 'Until We Meet Again',
                 text: "\"A track of a journey towards hope. A song to keep us carrying on until we meet again.\"\n\nDon't tell your siblings, but you're my favorite.",
                 img: uwma,
                 link: 'https://youtu.be/bVOmOFAX40w?si=WNa3UYNjTl1__EC5'
             },
             {
-                key: 6,
+                key: 7,
                 name: 'Azure I: Sky',
                 text: "Quarantine 2020: When we were all stuck in one place, this was what it felt like to be a bit more free.",
                 img: azurei,
                 link: 'https://youtu.be/7rPj3R10p8I?si=CddIanyinIUaDLsL'
             },
             {
-                key: 7,
+                key: 8,
                 name: 'Remembered',
                 text: "The piece that started me on my songwriting journey, capturing the people that made it possible.",
                 img: remembered,

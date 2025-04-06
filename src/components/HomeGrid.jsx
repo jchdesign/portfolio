@@ -17,15 +17,15 @@ function HomeGrid() {
 
   return (
     <div id='home-grid'>
-        <div className='grid-item'>
+        <div className='grid-item slim'>
           <TitleUL text='THE JC SYMPHONY ORCHESTRA PRESENTS...' size='h5 font-600'/>
         </div>
-        <div className='grid-item text-align-right flex-align-end'>
-          <p className='h5 font-300 uppercase' >{dateDisplay}</p>
-          <span className='h5 font-300'>{timeDisplay} @ <HyperLink text='THE WILTERN' url='https://www.wiltern.com/' size='h5 font-300'/></span>
+        <div className='grid-item slim text-align-right flex-align-end'>
+          <p className='h5 uppercase' >{dateDisplay}</p>
+          <span className='h5'>{timeDisplay} @ <HyperLink text='THE WILTERN' url='https://www.wiltern.com/' size='h5'/></span>
         </div>
         <div className='grid-item'>
-            <p className='h1 font-400 text-align-center'>WE ARE ALL STORIES TO BE TOLD</p>
+            <p className='h1 text-align-center'>WE ARE ALL STORIES TO BE TOLD</p>
             <br></br>
             <p className='h5 text-align-center'>A JOURNEY THROUGH DESIGN, RESEARCH, AND MUSIC</p>
         </div>
@@ -35,7 +35,7 @@ function HomeGrid() {
           </div>
         </div>
         <div className='grid-item'>
-          <div className='home-credits-container'>
+          <div className='spaced-items-container'>
             <p className='h5 font-600'>JEFF CHANG</p> 
             <div className='square'></div>
             <p className='h5'>DESIGNER</p>

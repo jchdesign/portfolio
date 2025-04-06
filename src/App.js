@@ -15,6 +15,7 @@ import Reflection from './pages/Reflection';
 import Recollections from './pages/Recollections';
 import OniriaHill from './pages/OniriaHill';
 import DirtyLaundry from './pages/DirtyLaundry';
+import Interlude from './pages/Interlude'
 import ComingSoon from './pages/ComingSoon';
 import SFParksRec from './pages/SFParksRec';
 import ProgramListCards from './components/ProgramListCards';
@@ -35,7 +36,7 @@ function App() {
         <Route path='/Nearby' element={<Nearby/>}></Route>
         <Route path='/Reflection' element={<Reflection/>}></Route>
         <Route path='/SFParksRec' element={<SFParksRec/>}></Route>
-        <Route path='/Interlude' element={<ComingSoon/>}></Route>
+        <Route path='/Interlude' element={<Interlude/>}></Route>
 
 
         <Route path='/OniriaHill' element={<OniriaHill/>}></Route>

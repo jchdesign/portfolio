@@ -18,7 +18,7 @@ function About({data}) {
       <div className='about-img' style={{backgroundImage: `url(${data[0].img})`}}></div>
       <RolesContainer/>
       <LayeredTextSection 
-        text1='"We are all stories to be told."'
+        text1='"WE ARE ALL STORIES TO BE TOLD."'
         text2='It’s a philosophy I carry throughout my all my work in design, research, and music. Everything we experience and all the people we meet have something more to say - something story behind why they are. And my passion is to tell it so that we can know it, understand it, and feel it.'
       />
       <TextSection 

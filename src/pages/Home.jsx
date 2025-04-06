@@ -32,7 +32,6 @@ function Home() {
   return (
     <main>
         <HomeGrid/>
-        {/* <ProgramList/> */}
         <ProgramListCards 
             title={'SUITE I: STORIES OF TECHNOLOGY'}
             id={'suite-1'}

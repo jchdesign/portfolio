@@ -2,7 +2,7 @@ import Chirality from '../assets/Reflection/Chirality.png';
 import MultiSimCover from '../assets/MultiSim_SimManager/Cover.png';
 import NearbyFlowFinal from '../assets/Nearby/FlowFinal.png';
 import Overview from '../assets/SFParksRec/Overview.png';
-import InterludeLogo from '../assets/Interlude/Logo.png';
+import InterludeCover from '../assets/Interlude/interlude_cover.png';
 
 const work_data = [
     {
@@ -48,6 +48,39 @@ const work_data = [
     },
     {
         key: 2,
+        title: 'INTERLUDE',
+        listing: 'INTERLUDE',
+        role: ['JEFF CHANG', 'Product Manager, Designer, Engineer'],
+        credit: 'CHANG, GUO, JOHAL, WEI',
+        arranged: false,
+        collab: true,
+        collab_credits: 'THE UC BERKELEY SCHOOL OF INFORMATION',
+        duration: 'OCT 2024 - PRESENT',
+        collaborators: [
+            {
+                name: 'ANITA GUO',
+                role: 'UX DESIGNER'
+            },
+            {
+                name: 'TJ JOHAL',
+                role: 'DATA SCIENTIST'
+            },
+            {
+                name: 'KAREN WEI',
+                role: 'UX DESIGNER'
+            },
+            {
+                name: 'KAY ASHAOLU',
+                role: 'ADVISOR'
+            }
+        ],
+        img: InterludeCover,
+        miniOverview: 'Orchestrated product management, UI/UX design, and engineering in 0 to 1 development of an application supporting emerging music artists.',
+        overview: 'Orchestrated product management, UI/UX design, and engineering in 0 to 1 development of an application supporting emerging music artists.',
+        link: '/Interlude'
+    },
+    {
+        key: 3,
         title: 'NEARBY: REDESIGNED',
         listing: 'NEARBY: REDESIGNED',
         role: ['JEFF CHANG', 'UI/UX DESIGN INTERN'],
@@ -77,7 +110,7 @@ const work_data = [
         link: '/Nearby'
     },
     {
-        key: 3,
+        key: 4,
         title: 'WHAT DO WE SEE IN A REFLECTION?: Seeing Chirality Correlates with Aesthetic Perception',
         listing: 'WHAT DO WE SEE IN A REFLECTION?',
         role: ['JEFF CHANG', 'Research Assistant'],
@@ -101,57 +134,24 @@ const work_data = [
         overview: 'A psychological research study investigating the relationship between our perception of mirrored images and our aesthetic experience, in collaboration with Dr. Yi-Chia Chen and Dr. Hongjing Lu from the UCLA Computational Vision and Learning Lab',
         link: '/Reflection'
     },
-    {
-        key: 4,
-        title: 'SF PARKS & REC PICNIC RESERVATION REDESIGN',
-        listing: 'SF PARKS & REC REDESIGN',
-        role: ['JEFF CHANG', 'UX Designer'],
-        credit: 'SF PARKS & REC',
-        arranged: true,
-        duration: 'SEPT 2023 - OCT 2023',
-        collab: false,
-        collab_credits: 'PRODUCT DESIGN STUDIO PROJECT',
-        collaborators: [
+    // {
+    //     key: 4,
+    //     title: 'SF PARKS & REC PICNIC RESERVATION REDESIGN',
+    //     listing: 'SF PARKS & REC REDESIGN',
+    //     role: ['JEFF CHANG', 'UX Designer'],
+    //     credit: 'SF PARKS & REC',
+    //     arranged: true,
+    //     duration: 'SEPT 2023 - OCT 2023',
+    //     collab: false,
+    //     collab_credits: 'PRODUCT DESIGN STUDIO PROJECT',
+    //     collaborators: [
 
-        ],
-        img: Overview,
-        miniOverview: 'Redesigning the online reservation flow in the SF Parks and Recreation website.',
-        overview: 'Redesigning the online reservation flow in the SF Parks and Recreation website - streamlining, organizing, and reimagining critical features of the reservation process.',
-        link: '/SFParksRec',
-    },
-    {
-        key: 5,
-        title: 'INTERLUDE',
-        listing: 'INTERLUDE',
-        role: ['JEFF CHANG', 'Product Manager, Designer, Enginner'],
-        credit: 'CHANG, GUO, JOHAL, WEI',
-        arranged: false,
-        collab: false,
-        collab_credits: 'UC BERKELEY SCHOOL OF INFORMATION',
-        duration: 'OCT 2024 - PRESENT',
-        collaborators: [
-            {
-                name: 'ANITA GUO',
-                role: 'UX DESIGNER'
-            },
-            {
-                name: 'TJ JOHAL',
-                role: 'DATA SCIENTIST'
-            },
-            {
-                name: 'KAREN WEI',
-                role: 'UX DESIGNER'
-            },
-            {
-                name: 'KAY ASHAOLU',
-                role: 'ADVISOR'
-            }
-        ],
-        img: InterludeLogo,
-        miniOverview: 'Designing, researching, and engineering a platform supporting the growth of emerging artists.',
-        overview: 'Overview here',
-        link: '/Interlude'
-    },
+    //     ],
+    //     img: Overview,
+    //     miniOverview: 'Redesigning the online reservation flow in the SF Parks and Recreation website.',
+    //     overview: 'Redesigning the online reservation flow in the SF Parks and Recreation website - streamlining, organizing, and reimagining critical features of the reservation process.',
+    //     link: '/SFParksRec',
+    // },
 ]
 
 export default work_data

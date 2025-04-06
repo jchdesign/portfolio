@@ -25,9 +25,10 @@ function Nearby() {
 
   return (
     <main>
-      <CaseStudyGrid data={work_data[1]}/>
+      <CaseStudyGrid data={work_data[2]}/>
       <SectionDivider text='Movement 1: The Motivation'/>
-      <TextSection text="Kardder is a social media application that enables and facilitates in-person interactions with one’s immediate, real-time vicinity. It uses location data and connects you with people, places, and events near you, happening right now." />      <ImageTextSection 
+      <TextSection text="Kardder is a social media application that enables and facilitates in-person interactions with one’s immediate, real-time vicinity. It uses location data and connects you with people, places, and events near you, happening right now." />
+      <ImageTextSection 
         orientation='img-text'
         img={FlowBefore} 
         title='Background' 

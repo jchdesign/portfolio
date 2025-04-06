@@ -24,7 +24,7 @@ function Reflection() {
   
   return (
     <main>
-      <CaseStudyGrid data={work_data[2]}/>
+      <CaseStudyGrid data={work_data[3]}/>
       <SectionDivider text={'Movement I: Why Chirality? What is Chirality?'}/>
       <ImageTextSection
         img={reflection}
