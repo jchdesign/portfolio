@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.78fc3e69.css",
-    "main.js": "/static/js/main.f12df235.js",
+    "main.css": "/static/css/main.f069a2d8.css",
+    "main.js": "/static/js/main.9115fd0a.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
     "static/media/uwma.jpg": "/static/media/uwma.fb8bdb2a033ef2979bf5.jpg",
@@ -37,18 +37,23 @@
     "static/media/Overview.png": "/static/media/Overview.fb56a0cffa9d779f7271.png",
     "static/media/DLPoster.png": "/static/media/DLPoster.83d98ec5ce8602d27446.png",
     "static/media/interlude_cover.png": "/static/media/interlude_cover.15747d8d167fd482e476.png",
-    "static/media/interlude_final.png": "/static/media/interlude_final.92e0bad742fbdc512950.png",
+    "static/media/interlude_final.png": "/static/media/interlude_final.c045be97de59f8a9c21b.png",
     "static/media/Problem2.png": "/static/media/Problem2.8f5a52ee192ca74a2b06.png",
     "static/media/UXWork.png": "/static/media/UXWork.00d6cec6944905ff4e82.png",
+    "static/media/music_page.png": "/static/media/music_page.3222cb3946cdf249471c.png",
     "static/media/Cover.png": "/static/media/Cover.5ce7c0d0d31a2f8f7bda.png",
     "static/media/Problem1.png": "/static/media/Problem1.200e0d9bc8cce8b0529a.png",
     "static/media/Figure1.jpg": "/static/media/Figure1.e3d93fb93b75f2f3bc58.jpg",
+    "static/media/aritst_profiles.png": "/static/media/aritst_profiles.99f3e35d3e56458b7d92.png",
     "static/media/Problem3.png": "/static/media/Problem3.a08564e48ac454b1ea39.png",
     "static/media/Active_NavBar.png": "/static/media/Active_NavBar.43b33eb3982d1dd58687.png",
     "static/media/HiFi2.png": "/static/media/HiFi2.0cd4659e2b1026879f74.png",
+    "static/media/home_page.png": "/static/media/home_page.ec3c694592c5b390459d.png",
     "static/media/Tasks.png": "/static/media/Tasks.9d73142bfa500594336c.png",
     "static/media/MultiSim.png": "/static/media/MultiSim.633b51fedde6da01b253.png",
     "static/media/remembered.jpg": "/static/media/remembered.497f5b7ae289caff9aa3.jpg",
+    "static/media/app_flow.png": "/static/media/app_flow.f24b0bdad26beea0a094.png",
+    "static/media/research.png": "/static/media/research.25c5b1a387be0efe951c.png",
     "static/media/UXCollab.png": "/static/media/UXCollab.a7edb8cfe206ce407eea.png",
     "static/media/TeamCollab.png": "/static/media/TeamCollab.45e1b8d2878a09401d30.png",
     "static/media/Team.png": "/static/media/Team.f5087b2ad5b57c8fb3ff.png",
@@ -63,12 +68,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.c33ab1ced7c9937e15e703feabc8c16e.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.0bdeb7d18f6797f251acf80de329b395.svg",
     "static/media/email.svg": "/static/media/email.783ab87f34859c1dde82fc825fb64928.svg",
-    "main.78fc3e69.css.map": "/static/css/main.78fc3e69.css.map",
-    "main.f12df235.js.map": "/static/js/main.f12df235.js.map",
+    "main.f069a2d8.css.map": "/static/css/main.f069a2d8.css.map",
+    "main.9115fd0a.js.map": "/static/js/main.9115fd0a.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78fc3e69.css",
-    "static/js/main.f12df235.js"
+    "static/css/main.f069a2d8.css",
+    "static/js/main.9115fd0a.js"
   ]
 }
