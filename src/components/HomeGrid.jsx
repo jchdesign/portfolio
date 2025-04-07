@@ -29,12 +29,12 @@ function HomeGrid() {
             <br></br>
             <p className='h5 text-align-center'>A JOURNEY THROUGH DESIGN, RESEARCH, AND MUSIC</p>
         </div>
-        <div className='grid-item'>
+        <div className='grid-item slim'>
           <div className='block-container-2'>
           <TitleUL text='DIRECTED BY' size='h5 font-600'/>
           </div>
         </div>
-        <div className='grid-item'>
+        <div className='grid-item slim'>
           <div className='spaced-items-container'>
             <p className='h5 font-600'>JEFF CHANG</p> 
             <div className='square'></div>

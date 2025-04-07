@@ -9,12 +9,12 @@ import HyperLink from './HyperLink';
 function Footer() {
   return (
     <footer id='footer'>
-      <div className='grid-item'>
+      <div className='grid-item slim'>
           <p className='h5'>THIS PROGRAM IS DESIGNED AND CODED BY YOURS TRULY.</p>
           <br></br>
           <p className='h5 font-400'>© 2025 JEFF CHANG</p>
       </div>
-      <div className='grid-item'>
+      <div className='grid-item slim'>
           <div className='spaced-items-container'>
             <HyperLink text={"SPOTIFY"} size='h5 font-600' url={'https://open.spotify.com/artist/27GE283UaGrIuteEU5c7GZ?si=Sj6INxeyTbWMz5jaxNfI0w'}/>
             <HyperLink text={"YOUTUBE"} size='h5 font-600' url={'https://www.youtube.com/channel/UCxYGjYe7M7cBsPw1Aw_dOgQ'}/>

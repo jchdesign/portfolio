@@ -26,7 +26,7 @@ function MultiSim_SimManager() {
 
   return (
     <main>
-      <CaseStudyGrid data={work_data[0]}/>
+      <CaseStudyGrid data={work_data[1]}/>
       <SectionDivider text='Movement I: Two Applications, In Parallel'/>
       <LayeredTextSection
         orientation='small-big'

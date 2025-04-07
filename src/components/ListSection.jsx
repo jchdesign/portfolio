@@ -6,8 +6,9 @@ function ListSection({title='', subtitle='', list}) {
         <br></br>
         {list.map((item) => (
             <div className='list-item'>
-                {item.title ? <div className='h3 font-400'>{item.title}</div> : null}
+                {item.title ? <div className='h3 font-600' style={{paddingBottom: '0.5em'}}>{item.title}</div> : null}
                 {item.text ? <div className='h4 font-300'>{item.text}</div> : null}
+                <br></br>
                 <br></br>
             </div>
             ))

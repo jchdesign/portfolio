@@ -7,6 +7,39 @@ import InterludeCover from '../assets/Interlude/interlude_cover.png';
 const work_data = [
     {
         key: 1,
+        title: 'INTERLUDE',
+        listing: 'INTERLUDE',
+        role: ['JEFF CHANG', 'Product Manager, Designer, Engineer'],
+        credit: 'CHANG, GUO, JOHAL, WEI',
+        arranged: false,
+        collab: true,
+        collab_credits: 'THE UC BERKELEY SCHOOL OF INFORMATION',
+        duration: 'OCT 2024 - PRESENT',
+        collaborators: [
+            {
+                name: 'ANITA GUO',
+                role: 'UX DESIGNER'
+            },
+            {
+                name: 'TJ JOHAL',
+                role: 'DATA SCIENTIST'
+            },
+            {
+                name: 'KAREN WEI',
+                role: 'UX DESIGNER'
+            },
+            {
+                name: 'KAY ASHAOLU',
+                role: 'ADVISOR'
+            }
+        ],
+        img: InterludeCover,
+        miniOverview: 'Orchestrated product management, UI/UX design, and engineering in 0 to 1 development of an application supporting emerging music artists.',
+        overview: 'Orchestrated product management, UI/UX design, and engineering in 0 to 1 development of an application supporting emerging music artists.',
+        link: '/Interlude'
+    },
+    {
+        key: 2,
         title: 'MULTIPLE SIMULATIONS AND SIMULATION MANAGER WORKFLOW REDESIGN',
         listing: 'MULTISIM + SIM MANAGER REDESIGN',
         role: ['JEFF CHANG', 'UX DESIGN INTERN'],
@@ -45,39 +78,6 @@ const work_data = [
         miniOverview: 'Leading a redesign of the workflow between Simulink applications Multiple Simulations and Simulation Manager.',
         overview: 'Leading a redesign of the workflow between Simulink applications Multiple Simulations and Simulation Manager.',
         link: '/MultiSim_SimManager'
-    },
-    {
-        key: 2,
-        title: 'INTERLUDE',
-        listing: 'INTERLUDE',
-        role: ['JEFF CHANG', 'Product Manager, Designer, Engineer'],
-        credit: 'CHANG, GUO, JOHAL, WEI',
-        arranged: false,
-        collab: true,
-        collab_credits: 'THE UC BERKELEY SCHOOL OF INFORMATION',
-        duration: 'OCT 2024 - PRESENT',
-        collaborators: [
-            {
-                name: 'ANITA GUO',
-                role: 'UX DESIGNER'
-            },
-            {
-                name: 'TJ JOHAL',
-                role: 'DATA SCIENTIST'
-            },
-            {
-                name: 'KAREN WEI',
-                role: 'UX DESIGNER'
-            },
-            {
-                name: 'KAY ASHAOLU',
-                role: 'ADVISOR'
-            }
-        ],
-        img: InterludeCover,
-        miniOverview: 'Orchestrated product management, UI/UX design, and engineering in 0 to 1 development of an application supporting emerging music artists.',
-        overview: 'Orchestrated product management, UI/UX design, and engineering in 0 to 1 development of an application supporting emerging music artists.',
-        link: '/Interlude'
     },
     {
         key: 3,

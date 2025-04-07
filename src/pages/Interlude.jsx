@@ -26,14 +26,14 @@ function Interlude() {
   
   return (
     <main>
-      <CaseStudyGrid data={work_data[1]}/>
+      <CaseStudyGrid data={work_data[0]}/>
       <TextSection
-        text={<p>In October 2024, I sat down with a group of designers, researchers, and data scientists at the UC Berkeley School of Information to envision, research, design, and engineer a platform with one simple goal: <strong>to help emerging music artists build an audience.</strong></p>}
+        text={<p><strong>Interlude</strong> is the culmunation of my years of product design, product management, research, and engineering foundations channeled into one simple goal that has been very near and dear to me: <strong>helping emerging music artists grow their audience.</strong></p>}
       />
       <EmphasisTextSection
         orientation='small-big'
         text1={"This project is an ode to the stories behind the music we hear and the child of our collective passion for music and creators. "}
-        text2={"Interlude: an application for emerging artists to build a strong listener base by empowering them with a community where listeners can discover music from smaller artists and feel more closely connected with who the artist is as a person and as a creator."}
+        text2={"Interlude: an application for emerging artists to build a strong listener base by empowering them with a community where listeners can discover music from smaller artists and become more closely connected with who the artist is as a person and as a creator."}
       />
       <ImageSection
         img={interlude_final}
@@ -48,7 +48,7 @@ function Interlude() {
       <LayeredTextSection
         orientation='small-big'
         text1={"At this point, we did not know what solution we wanted to create, just that we wanted to help new artists."}
-        text2={"We began research to get in the headspace of what an artist struggles with when growing their audience and what they need."}
+        text2={"We began research to get in the headspace of what an artist needs when growing their audience and, on the flipside, what listeners want when discovering new music and connecting with the artists behind them."}
       />
       <ImageTextSection
         orientation='img-top'
@@ -115,7 +115,7 @@ function Interlude() {
         title='Artist Profiles For the Person Behind the Artist'
         text={"Creating a space where an artist can be empowered to showcase themselves and organize content about their craft."}
       />
-      <ListSection
+      {/* <ListSection
         title={"Design Choices"}
         list={[
           {
@@ -128,7 +128,7 @@ function Interlude() {
             text: "Featured posts to make a statement."
           }
         ]}
-      />
+      /> */}
       <ImageTextSection
         orientation='text-top'
         img={music_page}
@@ -144,6 +144,25 @@ function Interlude() {
         title='Listener Home Page for Discovery and Connection'
         text={<p>Allowing for discovery of new artists through an inverse recommendation system. Increasing visibility of artists through community interactions by displaying reposts, comments, and activity from the network that a listener follows. </p>}
       />
+      {/* <SectionDivider text={"MOVEMENT III: TESTING"}/>
+      
+      <SectionDivider text={"MOVEMENT IV: THE FUTURE AND REFLECTIONS"}/>
+      <ListSection
+        title='Reflections and Learnings'
+        list={[
+          {
+            title: "Keep the User at Heart",
+            text: "From 0 to 1, one guiding principle I maintained in our group's work is: let's listen to people first. Allowing myself to be humbled and guided by the experiences and pain points of artists and listeners, especially if they do not align with my own perceptions of the problem space, was key to creating an MVP that was well-received by our audience."
+          },
+          {
+            title: "Fidelity Matters for Usability Testing",
+            text: "Who would have thought that Lorem Ipsum text would have confused artists about the nature of the content on our app? Not us apparently (whoops). Turn up the fidelity for parts of the prototypes we want interviewees to understand more deeply."
+          },          {
+            title: "Fidelity Matters for Usability Testing",
+            text: "Who would have thought that Lorem Ipsum text would have confused artists about the nature of the content on our app? Not us apparently (whoops). Turn up the fidelity for parts of the prototypes we want interviewees to understand more deeply."
+          }
+        ]}
+      /> */}
     </main>
   )
 }
