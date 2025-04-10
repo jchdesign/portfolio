@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f069a2d8.css",
-    "main.js": "/static/js/main.9115fd0a.js",
+    "main.css": "/static/css/main.ffc28bd9.css",
+    "main.js": "/static/js/main.e3029204.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
     "static/media/uwma.jpg": "/static/media/uwma.fb8bdb2a033ef2979bf5.jpg",
@@ -9,22 +9,24 @@
     "static/media/OHPoster.png": "/static/media/OHPoster.a4e3316903387b63a554.png",
     "static/media/azureii.jpg": "/static/media/azureii.4af82c769f8b73855bf9.jpg",
     "static/media/reflection.png": "/static/media/reflection.1bb5653d20152817f8b3.png",
+    "static/media/cardMain.png": "/static/media/cardMain.c87f283fd47278843968.png",
     "static/media/acedia.jpg": "/static/media/acedia.b5c3960b7bf9c6ba2334.jpg",
-    "static/media/FlowFinal.png": "/static/media/FlowFinal.80dbd9b99f92756479e8.png",
     "static/media/LoFiFlow.png": "/static/media/LoFiFlow.df848f184e40464bdf7e.png",
     "static/media/Combined.png": "/static/media/Combined.fdbb547b6159946edd9a.png",
     "static/media/rcltns.png": "/static/media/rcltns.63d135d353ec2e1f42c8.png",
     "static/media/Shortlisting.png": "/static/media/Shortlisting.88de3ba1dcc06c9999bf.png",
     "static/media/NearbyBrowse.png": "/static/media/NearbyBrowse.1533695f43f51bf6226a.png",
     "static/media/june.jpg": "/static/media/june.e4c77e7bab0750f5211d.jpg",
+    "static/media/Chirality.png": "/static/media/Chirality.108706613df473690981.png",
     "static/media/azurei.jpg": "/static/media/azurei.67eba99e3ab3b21c1ca2.jpg",
     "static/media/Exploration.png": "/static/media/Exploration.eedd9b703fd5f885a26d.png",
+    "static/media/FlowFinal.png": "/static/media/FlowFinal.8e020fcb356cd84c3784.png",
     "static/media/InitialPages.png": "/static/media/InitialPages.f81481db51b096b4d7ca.png",
     "static/media/sanctuaries.jpg": "/static/media/sanctuaries.2d0aa2bea331a43825ee.jpg",
     "static/media/Nearby_3_4.png": "/static/media/Nearby_3_4.a4f2945bc562ce169b75.png",
     "static/media/ActiveStatus.png": "/static/media/ActiveStatus.42bfee46163853e79e3d.png",
     "static/media/FilterOptions.png": "/static/media/FilterOptions.e140dd08df8e53c2d068.png",
-    "static/media/Chirality.png": "/static/media/Chirality.3af91f913127fe1c327e.png",
+    "static/media/Cover.png": "/static/media/Cover.cdf479a9b5e2052e9d45.png",
     "static/media/ProfileChanges.png": "/static/media/ProfileChanges.35181802e3ec8c6b51e9.png",
     "static/media/FlowBefore.png": "/static/media/FlowBefore.a29eff5f738cd44c4de9.png",
     "static/media/Stimuli.png": "/static/media/Stimuli.b159540fe0b8e22f4d86.png",
@@ -41,7 +43,6 @@
     "static/media/Problem2.png": "/static/media/Problem2.8f5a52ee192ca74a2b06.png",
     "static/media/UXWork.png": "/static/media/UXWork.00d6cec6944905ff4e82.png",
     "static/media/music_page.png": "/static/media/music_page.3222cb3946cdf249471c.png",
-    "static/media/Cover.png": "/static/media/Cover.5ce7c0d0d31a2f8f7bda.png",
     "static/media/Problem1.png": "/static/media/Problem1.200e0d9bc8cce8b0529a.png",
     "static/media/Figure1.jpg": "/static/media/Figure1.e3d93fb93b75f2f3bc58.jpg",
     "static/media/aritst_profiles.png": "/static/media/aritst_profiles.99f3e35d3e56458b7d92.png",
@@ -68,12 +69,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.c33ab1ced7c9937e15e703feabc8c16e.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.0bdeb7d18f6797f251acf80de329b395.svg",
     "static/media/email.svg": "/static/media/email.783ab87f34859c1dde82fc825fb64928.svg",
-    "main.f069a2d8.css.map": "/static/css/main.f069a2d8.css.map",
-    "main.9115fd0a.js.map": "/static/js/main.9115fd0a.js.map",
+    "main.ffc28bd9.css.map": "/static/css/main.ffc28bd9.css.map",
+    "main.e3029204.js.map": "/static/js/main.e3029204.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f069a2d8.css",
-    "static/js/main.9115fd0a.js"
+    "static/css/main.ffc28bd9.css",
+    "static/js/main.e3029204.js"
   ]
 }
