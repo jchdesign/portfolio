@@ -27,6 +27,14 @@ function MultiSim_SimManager() {
   return (
     <main>
       <CaseStudyGrid data={work_data[1]}/>
+      <TextSection
+        size='h2'
+        text={<p>Leading a product team through sketching workshops, design reviews, and empathetic collaboration, <strong>achieving crossfunctional alignment on the workflow redesign of Multiple Simulations and Simulation Manager applications.</strong></p>}
+      />
+      <EmphasisTextSection
+        text1={"Director's Note"}
+        text2={"While this project is under an NDA, I hope this case study will give a glimpse into the design process I employ to align a crossfunctional team through design. To learn more about the project, feel free to send an email my way."}
+      />
       <SectionDivider text='Movement I: Two Applications, In Parallel'/>
       <LayeredTextSection
         orientation='small-big'

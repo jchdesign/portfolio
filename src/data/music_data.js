@@ -20,6 +20,7 @@ const music_data = [
         collab_credits: 'MY INDEPENDENT ARTIST PROJECT',
         duration: 'MAY 2020 - Present',
         img: rcltns,
+        imgCard: rcltns,
         miniOverview: 'My independent artist project, walking through chapters of my life. Exploring fervor, endearment, and hope in a 12-tone alphabet.',
         overview: 'My independent artist project, exploring fervor, endearment, and hope in a 12-tone alphabet.',
         releases: [

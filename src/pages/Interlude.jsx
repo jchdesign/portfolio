@@ -133,7 +133,7 @@ function Interlude() {
         orientation='text-top'
         img={music_page}
         title='Artist Music Pages to Speak Freely About Music'
-        text={"Organizing content about music in a page that serves as a source of truth from the artist, where an artist’s thoughts, process, stories, and exclusive content about a piece of music is contained and experienced."}
+        text={"Organizing content about music in a page that serves as a source of truth from the artist, where an artist’s thoughts, process, stories, and exclusive content about a piece of music are contained and experienced."}
       />
       <TextSection
         text={<p>I collaborated with the designers creating the listener experience, iterating through proposed designs and <strong>integrating the content from the artist pages with the listener-facing application.</strong></p>}

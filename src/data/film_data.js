@@ -23,6 +23,7 @@ const film_data = [
             }
         ],
         img: DLPoster,
+        imgCard: DLPoster,
         miniOverview: 'Telling the sonic story of Isa in the coming-of-age dramedy Dirty Laundry.', 
         overview: 'With the production team at the Cinematic Arts and Production Studio, I tell the sonic story of Isa in the coming-of-age dramedy Dirty Laundry.',
         link: '/DirtyLaundry'
@@ -44,6 +45,7 @@ const film_data = [
             }
         ],
         img: OHPoster,
+        imgCard: OHPoster,
         miniOverview: 'Loss, grief, and hope in a score exploring the rift between memory and reality.',
         overview: "In a score that explores the rift between memory and reality, I embrace Chucho Martínez's vision of a journey through loss, grief, and hope.",
         link: '/OniriaHill'

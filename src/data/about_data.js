@@ -5,6 +5,7 @@ const about_data = [{
     title: 'JEFF CHANG: ABRIDGED',
     listing: 'JEFF CHANG: ABRIDGED',
     img: Me,
+    imgCard: Me,
     miniOverview: "A word from the director of tonight's performance.",
     education: [
         {

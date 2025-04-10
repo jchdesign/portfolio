@@ -6,7 +6,7 @@ function ReturnHeader({project}) {
     <div className='return-header'>
       <span className='return-button'>
         <img className='return-arrow' src={arrowLeft}/>
-        <Link to={'/'} className='text-link title h5 font-300'>HOME</Link>
+        <Link to={'/'} className='text-link title h5'>HOME</Link>
       </span>
       <div className='return-header-currently'>NOW PLAYING: {project}</div>
     </div>

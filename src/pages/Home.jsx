@@ -12,6 +12,7 @@ import ProgramList from '../components/ProgramList';
 import Footer from '../components/Footer';
 import ProgramListCards from '../components/ProgramListCards';
 import RolesContainer from '../components/RolesContainer';
+import ProgramListCardsLong from '../components/ProgramListCardsLong';
 
 function Home() {
     const { hash } = useLocation();
@@ -32,22 +33,22 @@ function Home() {
   return (
     <main>
         <HomeGrid/>
-        <ProgramListCards 
+        <ProgramListCardsLong
             title={'SUITE I: STORIES OF TECHNOLOGY'}
             id={'suite-1'}
             list={work_data}
         />
-        <ProgramListCards 
+        <ProgramListCardsLong 
             title={'SUITE II: STORIES OF MOTION PICTURE'}
             id={'suite-2'}
             list={film_data}
         />
-        <ProgramListCards 
+        <ProgramListCardsLong 
             title={'SUITE III: STORIES OF MUSIC'}
             id={'suite-3'}
             list={music_data}
         />
-        <ProgramListCards 
+        <ProgramListCardsLong 
             title={'ENCORE: STORIES OF ME'}
             id={'suite-4'}
             list={about_data}

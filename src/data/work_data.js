@@ -3,6 +3,7 @@ import MultiSimCover from '../assets/MultiSim_SimManager/Cover.png';
 import NearbyFlowFinal from '../assets/Nearby/FlowFinal.png';
 import Overview from '../assets/SFParksRec/Overview.png';
 import InterludeCover from '../assets/Interlude/interlude_cover.png';
+import InterludeCard from '../assets/Interlude/cardMain.png'
 
 const work_data = [
     {
@@ -34,8 +35,9 @@ const work_data = [
             }
         ],
         img: InterludeCover,
-        miniOverview: 'Orchestrated product management, UI/UX design, and engineering in 0 to 1 development of an application supporting emerging music artists.',
-        overview: 'Orchestrated product management, UI/UX design, and engineering in 0 to 1 development of an application supporting emerging music artists.',
+        imgCard: InterludeCard,
+        miniOverview: 'Orchestrating product management, UI/UX design, and engineering in 0 to 1 development of an application supporting the growth of emerging music artists.',
+        overview: 'Orchestrating product management, UI/UX design, and engineering in 0 to 1 development of an application supporting the growth of emerging music artists.',
         link: '/Interlude'
     },
     {
@@ -75,7 +77,8 @@ const work_data = [
             }
         ],
         img: MultiSimCover,
-        miniOverview: 'Leading a redesign of the workflow between Simulink applications Multiple Simulations and Simulation Manager.',
+        imgCard: MultiSimCover,
+        miniOverview: 'Achieving cross-functional alignment on the redesign of the workflow between Simulink applications Multiple Simulations and Simulation Manager.',
         overview: 'Leading a redesign of the workflow between Simulink applications Multiple Simulations and Simulation Manager.',
         link: '/MultiSim_SimManager'
     },
@@ -104,7 +107,8 @@ const work_data = [
             }
         ],
         img: NearbyFlowFinal,
-        miniOverview: "Elevating Nearby as the core feature of Kardder.",
+        imgCard: NearbyFlowFinal,
+        miniOverview: "Navigating through product understanding and business constraints to elevate Nearby as the core feature of Kardder.",
         overview: "Redesigning Nearby - Kardder's holy grail feature - to better present Nearby as the core feature of Kardder.",
         arranged: true,
         link: '/Nearby'
@@ -130,7 +134,8 @@ const work_data = [
             }
         ],
         img: Chirality,
-        miniOverview: 'Constructing and conducting psychological research study investigating visual aesthetic preferences in mirrored images.',
+        imgCard: Chirality,
+        miniOverview: 'Constructing, coding, and administering psychological research study investigating visual aesthetic preferences in mirrored images.',
         overview: 'A psychological research study investigating the relationship between our perception of mirrored images and our aesthetic experience, in collaboration with Dr. Yi-Chia Chen and Dr. Hongjing Lu from the UCLA Computational Vision and Learning Lab',
         link: '/Reflection'
     },

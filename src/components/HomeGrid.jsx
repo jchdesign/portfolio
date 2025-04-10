@@ -29,12 +29,12 @@ function HomeGrid() {
             <br></br>
             <p className='h5 text-align-center'>A JOURNEY THROUGH DESIGN, RESEARCH, AND MUSIC</p>
         </div>
-        <div className='grid-item slim'>
+        <div className='grid-item'>
           <div className='block-container-2'>
           <TitleUL text='DIRECTED BY' size='h5 font-600'/>
           </div>
         </div>
-        <div className='grid-item slim'>
+        <div className='grid-item'>
           <div className='spaced-items-container'>
             <p className='h5 font-600'>JEFF CHANG</p> 
             <div className='square'></div>
@@ -60,7 +60,7 @@ function HomeGrid() {
         </div>
         <div className='grid-item'>
           <TitleUL text="ABOUT THE DIRECTOR" size='h4 font-600' style={{marginBottom: '1em'}}/>
-          <p className='h5' style={{paddingBottom: "1em"}}>WEAVING TOGETHER 3 YEARS OF PRODUCT DESIGN, 5 YEARS OF MUSIC COMPOSITION, AND A LIFETIME OF STORYTELLING, JEFF CREATES WORKS INSPIRED BY AND INSPIRING STORIES.</p>
+          <p className='h5' style={{paddingBottom: "1em"}}>A TECHNICAL PRODUCT DESIGNER WITH FOUNDATIONS IN FULL-STACK ENGINEERING, RESEARCH, MUSIC, AND FILM, JEFF CREATES WORKS INSPIRED BY AND INSPIRING STORIES.</p>
           <Link to='/About' className='text-link h5 font-600'>LEARN MORE</Link>
         </div>
     </div>

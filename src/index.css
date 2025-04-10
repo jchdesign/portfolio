@@ -12,7 +12,8 @@
   --black: #e6e6e6;
   --bg-primary: #ffffff; /* #2c2c2c */
   --bg-secondary: #ffffff; /* #1d1d1d */
-  --outline-primary: #786e61;
+  /* --outline-primary: #786e61; */
+  --outline-primary: #36304a;
   --font-primary: #000000; /* #CECECE */
   --hover: #f0f0f0;
 }
@@ -34,10 +35,10 @@ body {
 }
 
 main {
-  margin: 50px auto;
+  margin: 30px auto;
   white-space: pre-line;
   background-color: var(--bg-secondary);
-  width: 85%
+  width: 90%
 }
 
 .container {
@@ -261,7 +262,7 @@ p {
 #home-grid > .grid-item:nth-child(3) {
   display: flex;
   align-items: center;
-  height: 65vh;
+  height: 80vh;
   grid-column: 1 / 13;
 }
 
@@ -524,6 +525,22 @@ p {
 ##    ## ##     ## ##    ## ##          ##    ##    ##    ##     ## ##     ##    ##    
  ######  ##     ##  ######  ########     ######     ##     #######  ########     ##    
 */
+
+.case-study-card-long {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  box-sizing: border-box;
+}
+
+.case-study-card-long > .teaser-img {
+  width: 100%;
+  height: auto;
+}
+
+.case-study-card-long > .description {
+  padding: 0px 10px;
+}
 
 .text-decoration-none {
   text-transform: none;
@@ -795,14 +812,16 @@ p {
 
 .dashed-line {
   flex: 1;
-  border-bottom: 1px gray dotted;
+  border-bottom: 2px gray dotted;
 }
 
 .home-case-study-container {
-  display: grid;
+  padding: 4em 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 100%;
-  grid-template-columns: 1fr 1fr;
-  gap: 2em;
+  gap: 8em;
 }
 
 .case-study-card {
@@ -815,19 +834,13 @@ p {
   transition: background-color 300ms ease-in-out;
 }
 
-.case-study-card:hover {
+.case-study-card-long:hover {
   cursor: pointer;
 }
 
-.case-study-card:hover .text-link::after {
+.case-study-card-long:hover .text-link::after {
   opacity: 1;
   transform: translate3d(0, 0, 0);
-}
-
-.case-study-card > .teaser-img {
-  margin-bottom: 1em;
-  width: 100%;
-  height: auto;
 }
 
 .case-study-card > p {

@@ -4,16 +4,27 @@ import music_data from '../data/music_data';
 import TitleUL from './TitleUL';
 import ProgramSubItem from './ProgramSubItem';
 import ProgramItemCardsLong from './ProgramItemCardsLong';
+import CaseStudyCard from './CaseStudyCard';
+import CaseStudyCardLong from './CaseStudyCardLong';
 
-function ProgramListCardsLong() {
+function ProgramListCardsLong({title, id, list}) {
   return (
-    <section className='container'>
-        <TitleUL text='PROGRAM' size='h2'/>
-        <ProgramSubItem listing='Jeff Chang: Abridged' credit='CHANG' link='About'/>
-        <ProgramItemCardsLong listing='Suite I: Stories of Technology' subitem_list={work_data}/>
-        <ProgramItemCardsLong listing='Suite II: Stories of Motion Picture' subitem_list={film_data}/>
-        <ProgramItemCardsLong listing='Suite III: Stories of Me' subitem_list={music_data}/>
-    </section>
+    <section id={id} className='container'>
+      <TitleUL text={title} size='h2'/>
+      <div className='home-case-study-container'>
+        {list.length!==0 &&
+          list.map((item) => (
+            <CaseStudyCardLong
+              key={item.key}
+              listing={item.listing}
+              link={item.link}
+              imgCard={item.imgCard}
+              miniOverview={item.miniOverview}
+            />
+          ))
+        }
+      </div>
+  </section>
   )
 }
 
