@@ -6,7 +6,7 @@ function CaseStudyCard({listing, miniOverview, img, link=''}) {
         <div className='case-study-card'>
             <img className='teaser-img' src={img} alt={img}/>
             <p className='text-link h3 font-400'>{listing}</p>
-            <p className='h5'>{miniOverview}</p>
+            <p className='text'>{miniOverview}</p>
         </div>
     </Link>
   )

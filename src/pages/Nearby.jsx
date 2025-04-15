@@ -17,6 +17,7 @@ import ProfileChanges from '../assets/Nearby/ProfileChanges.png';
 import Combined from '../assets/Nearby/Combined.png';
 import Nearby_3_4 from '../assets/Nearby/Nearby_3_4.png';
 import Exploration from '../assets/Nearby/Exploration.png';
+import Footer from '../components/Footer';
 
 function Nearby() {
   useEffect(() => {
@@ -137,6 +138,7 @@ function Nearby() {
         title='The Final Product'
         text='The version that remained in the app for the rest of my tenure, one that served as the core feature, most prominent page, and visibly and functionally the selling point of Kardder.'
       />
+      <Footer/>
     </main>
   )
 }

@@ -4,6 +4,7 @@ import music_data from '../data/music_data';
 
 import CaseStudyGrid from '../components/CaseStudyGrid';
 import ImageTextSection from '../components/ImageTextSection';
+import Footer from '../components/Footer';
 
 function Recollections() {
     useEffect(() => {
@@ -24,6 +25,7 @@ function Recollections() {
                     hyperlinkText='LISTEN'
                 />
             ))}
+            <Footer/>
         </main>
   )
 }

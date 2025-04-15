@@ -4,7 +4,7 @@ import TitleUL from './TitleUL';
 function ProgramList() {
   return (
     <section className='container'>
-        <TitleUL text="TONIGHT'S PROGRAM" size='h4 font-600' style={{marginBottom: '1em'}}/>
+        <TitleUL text="TONIGHT'S PROGRAM" size='text font-600' style={{marginBottom: '1em'}}/>
         <ProgramSubItem
           listing='SUITE I: STORIES OF TECHNOLOGY' credit='CHANG' link='#suite-1'
           caption='Featuring performances by MathWorks, Kardder, and UCLA CVL'

@@ -17,9 +17,9 @@ function ProgramItem({listing='Works', credit='Chang', link='', caption='', subi
     return (
         <div className='program-container'>
             <div className='program-item'>
-                <Link to={link} className='text-link h4'>{listing}</Link>
+                <Link to={link} className='text-link h3'>{listing}</Link>
                 <div className='dashed-line'></div>
-                <div className='artist h5 font-italic-200'>{credit}</div>
+                <div className='artist p-text font-italic'>{credit}</div>
             </div>
             <p className='program-item-caption'>{caption}</p>
             {/* {subitem_list==[] ? null : <div className='subitem-container'>

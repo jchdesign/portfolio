@@ -16,6 +16,7 @@ import TextSection from '../components/TextSection';
 import EmphasisTextSection from '../components/EmphasisTextSection';
 import ImageTextSection from '../components/ImageTextSection';
 import LayeredTextSection from '../components/LayeredTextSection';
+import Footer from '../components/Footer';
 
 function Reflection() {
   useEffect(() => {
@@ -74,6 +75,7 @@ function Reflection() {
         textSize='h2'
         img={VVSS}
       />
+      <Footer/>
     </main>
   )
 }

@@ -7,7 +7,7 @@ function ProgramItemCardsLong({listing='Works', credit='Chang', link='', subitem
         <div className='program-item'>
             {link==='' ? <div className='title h2 font-200'>{listing}</div> : <Link to={link} className='text-link title h3 font-200'>{listing}</Link>}
             <div className='dashed-line'></div>
-            {/* <div className='artist h5 font-italic-200'>{credit}</div> */}
+            {/* <div className='artist text font-italic-200'>{credit}</div> */}
         </div>
         <div className='home-case-study-container'>
             {subitem_list.length!==0 &&

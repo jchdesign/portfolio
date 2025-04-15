@@ -1,5 +1,6 @@
 import DLPoster from '../assets/DirtyLaundry/DLPoster.png';
-import OHPoster from '../assets/OniriaHill/OHPoster.png'
+import DLCover from '../assets/DirtyLaundry/DLCover.png';
+import OHPoster from '../assets/OniriaHill/OHPoster.png';
 
 const film_data = [
     {
@@ -22,8 +23,8 @@ const film_data = [
                 role: 'Production Studio'
             }
         ],
-        img: DLPoster,
-        imgCard: DLPoster,
+        img: DLCover,
+        imgCard: DLCover,
         miniOverview: 'Telling the sonic story of Isa in the coming-of-age dramedy Dirty Laundry.', 
         overview: 'With the production team at the Cinematic Arts and Production Studio, I tell the sonic story of Isa in the coming-of-age dramedy Dirty Laundry.',
         link: '/DirtyLaundry'

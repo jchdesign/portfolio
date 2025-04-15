@@ -21,6 +21,7 @@ import TextSection from '../components/TextSection.jsx';
 import EmphasisTextSection from '../components/EmphasisTextSection.jsx';
 import ImageSection from '../components/ImageSection.jsx';
 import HyperLink from '../components/HyperLink.jsx';
+import Footer from '../components/Footer.jsx';
 
 function SFParksRec() {
   useEffect(() => {
@@ -119,6 +120,7 @@ function SFParksRec() {
         text="The end result: a simplified and streamlined reservation flow, from location selection to sign-up to confirmation, allowing users to efficiently find a picnic location that suits their amenity needs."
       />
       <ImageSection img={HiFi2}/>
+      <Footer/>
     </main>
   )
 }

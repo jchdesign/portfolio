@@ -7,7 +7,7 @@ function InfoGrid({list}) {
                 <>
                 <p className='h3 font-600'>{item.title}</p>
                 <br></br>
-                <p className='h5'>{item.text}</p>
+                <p className='text'>{item.text}</p>
                 <img>{item.img}</img>
                 </>
               </div>

@@ -4,6 +4,7 @@ import film_data from '../data/film_data';
 
 import CaseStudyGrid from '../components/CaseStudyGrid';
 import VideoEmbed from '../components/VideoEmbed';
+import Footer from '../components/Footer';
 
 function DirtyLaundry() {
     useEffect(() => {
@@ -14,6 +15,7 @@ function DirtyLaundry() {
         <main>
             <CaseStudyGrid data={film_data[0]}/>
             <VideoEmbed title={"SCENE 5: LOVE!"} source={"https://www.youtube.com/embed/Nx7_0bSo23s?start=76"} />
+            <Footer/>
         </main>
     )
 }

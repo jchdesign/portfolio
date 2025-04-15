@@ -4,7 +4,7 @@ import TitleUL from './TitleUL'
 function VideoEmbed({source='', title=''}) {
   return (
     <div className='container video-container'>
-        <TitleUL text={title} size='h4 font-600'/>
+        <TitleUL text={title} size='text font-600'/>
         <br></br>
         <iframe className='video-full' allowFullScreen src={source}></iframe>
     </div>

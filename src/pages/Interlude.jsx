@@ -14,9 +14,10 @@ import InfoGrid from '../components/InfoGrid';
 import interlude_final from '../assets/Interlude/interlude_final.png'
 import app_flow from '../assets/Interlude/app_flow.png';
 import research from '../assets/Interlude/research.png';
-import artist_profiles from '../assets/Interlude/aritst_profiles.png';
+import artist_profiles from '../assets/Interlude/artist_profiles.png';
 import music_page from '../assets/Interlude/music_page.png';
 import home_page from '../assets/Interlude/home_page.png';
+import Footer from '../components/Footer';
 
 
 function Interlude() {
@@ -28,31 +29,40 @@ function Interlude() {
     <main>
       <CaseStudyGrid data={work_data[0]}/>
       <TextSection
-        text={<p><strong>Interlude</strong> is the culmunation of my years of product design, product management, research, and engineering foundations channeled into one simple goal that has been very near and dear to me: <strong>helping emerging music artists grow their audience.</strong></p>}
+        title='CREATING A COMMUNITY FOR EMERGING ARTISTS'
+        text={
+          <>
+            <p>Inspired by the journeys and passion of early-stage independent artists, I led end-to-end UX design, UX research, and full-stack engineering to build an app supporting the growth of emerging artists.</p>
+          </>
+        }
       />
-      <EmphasisTextSection
-        orientation='small-big'
-        text1={"This project is an ode to the stories behind the music we hear and the child of our collective passion for music and creators. "}
-        text2={"Interlude: an application for emerging artists to build a strong listener base by empowering them with a community where listeners can discover music from smaller artists and become more closely connected with who the artist is as a person and as a creator."}
-      />
-      <ImageSection
+      <ImageTextSection
+        orientation='text-top'
+        textSize='h3'
+        text={"Interlude: an application for emerging artists to build a strong listener base by empowering them with a community where listeners can discover music from smaller artists and become more closely connected with who the artist is as a person and as a creator."}
         img={interlude_final}
       />
       <SectionDivider
         text={"MOVEMENT I: THE STORY OF INTERLUDE"}
       />
-      <EmphasisTextSection
-        text1={"In the Fall of 2024, I brought together a group of graduate students at my program in the UC Berkeley School of Information. I thought:"}
-        text2={<><br></br><strong>How can we help early stage artists build an audience?</strong><br></br></>}
+      <TextSection
+        title={"UNDERSTANDING OUR USERS"}
+        text={
+          <>
+            <p>In the Fall of 2024, I brought together a group of graduate students at my program in the UC Berkeley School of Information. I thought:</p>
+            <br></br>
+            <strong>How can we help early stage artists build an audience?</strong>
+            <br></br>
+            <br></br>
+            <p>At this point, we did not know what solution we wanted to create, just that we wanted to help new artists. We began research to get in the headspace of what challenges an artist faces when growing their audience and, on the flipside, what listeners want when discovering new music and connecting with the artists behind them.</p>
+          </>
+        }
       />
-      <LayeredTextSection
-        orientation='small-big'
-        text1={"At this point, we did not know what solution we wanted to create, just that we wanted to help new artists."}
-        text2={"We began research to get in the headspace of what an artist needs when growing their audience and, on the flipside, what listeners want when discovering new music and connecting with the artists behind them."}
-      />
-      <ImageTextSection
-        orientation='img-top'
+      <ImageSection
         img={research}
+      />
+      <TextSection
+        title={"WHAT WE FOUND"}
         text="Deepening our understanding of the landscape surrounding emerging artists, a couple of findings surprised us:"
       />
       <InfoGrid
@@ -68,7 +78,7 @@ function Interlude() {
           },
           {
             img: null,
-            title: "Social Media is Necessary But Inauthentic",
+            title: "Social Media is Necessary But Breeds Inauthenticity",
             text: "Social media is essential for keeping engagement beyond releases, but artists feel inauthentic posting content that would “make them go viral”."
           },
           {
@@ -78,6 +88,10 @@ function Interlude() {
           }
         ]}
       />
+      {/* <TextSection
+        text={"Emerging artists face challenges , and recommendation systems that "}
+        size='h3'
+      /> */}
       <EmphasisTextSection
         text1={"We asked ourselves..."}
         text2={<>
@@ -90,7 +104,6 @@ function Interlude() {
           <strong>How might we use social media to create this community of discovery and connection?</strong>
         </>}
       />
-
       <ImageTextSection
         orientation='text-top'
         img={app_flow}
@@ -99,15 +112,18 @@ function Interlude() {
           </p>
         </>}
       />
-      <EmphasisTextSection
-        text1={"Our Hypothesis"}
-        text2={"Deeper, more personal connections between an artist and a listener leads to a stronger and more dedicated listener base for an artist."}
+      <TextSection
+        title={"OUR HYPOTHESIS"}
+        text={"Deeper, more personal connections between an artist and a listener leads to a stronger and more dedicated listener base for an artist."}
       />
-      <SectionDivider text={"MOVEMENT II: A PLATFORM FOR EXPRESSION"}/>
-      <LayeredTextSection
-        orientation='small-big'
-        text1={<p>I organized my understanding of artists from research and my own experience as an artist into <strong>creating the artist-facing experience.</strong></p>}
-        text2={"My objective: Allow full creative and expressive freedom for artists, and create an app experience that empowers them to tell their stories."}
+      <SectionDivider text={"MOVEMENT II: CREATING INTERLUDE"}/>
+      <TextSection
+        title={"AN ARTIST EXPERIENCE SUPPORTING EXPRESSION"}
+        text={<>
+          <p>I organized my understanding of artists from research and my own experience as an artist into <strong>creating the artist-facing experience.</strong></p>
+          <br></br>
+          <p>My objective: Allow full creative and expressive freedom for artists, and create an app experience that empowers them to tell their stories.</p>
+        </>}
       />
       <ImageTextSection
         orientation='text-top'
@@ -142,7 +158,7 @@ function Interlude() {
         orientation='text-top'
         img={home_page}
         title='Listener Home Page for Discovery and Connection'
-        text={<p>Allowing for discovery of new artists through an inverse recommendation system. Increasing visibility of artists through community interactions by displaying reposts, comments, and activity from the network that a listener follows. </p>}
+        text={<p>Allowing for discovery of new artists through an <strong>inverse recommendation system</strong>. Increasing visibility of artists through community interactions by displaying reposts, comments, and activity from the network that a listener follows. </p>}
       />
       {/* <SectionDivider text={"MOVEMENT III: TESTING"}/>
       
@@ -163,6 +179,7 @@ function Interlude() {
           }
         ]}
       /> */}
+      <Footer/>
     </main>
   )
 }

@@ -8,6 +8,11 @@ import TeamCollab from '../assets/MultiSim_SimManager/TeamCollab.png';
 import UXCollab from '../assets/MultiSim_SimManager/UXCollab.png';
 import MultiSim from '../assets/MultiSim_SimManager/MultiSim.png';
 import SimManager from '../assets/MultiSim_SimManager/SimManager.png';
+import design_process from '../assets/MultiSim_SimManager/design_process.png';
+import nemawashi from '../assets/MultiSim_SimManager/nemawashi.png';
+import design_sketching from '../assets/MultiSim_SimManager/design_sketching.png';
+import ux_process from '../assets/MultiSim_SimManager/ux_process.png';
+import design_review from '../assets/MultiSim_SimManager/design_review.png';
 
 import CaseStudyGrid from '../components/CaseStudyGrid';
 import ImageTextSection from '../components/ImageTextSection';
@@ -18,6 +23,7 @@ import work_data from '../data/work_data';
 import EmphasisTextSection from '../components/EmphasisTextSection';
 import ListSection from '../components/ListSection';
 import ImageSection from '../components/ImageSection';
+import Footer from '../components/Footer';
 
 function MultiSim_SimManager() {
   useEffect(() => {
@@ -28,19 +34,22 @@ function MultiSim_SimManager() {
     <main>
       <CaseStudyGrid data={work_data[1]}/>
       <TextSection
-        size='h2'
+        title={"UNITING A TEAM THROUGH DESIGN"}
         text={<p>Leading a product team through sketching workshops, design reviews, and empathetic collaboration, <strong>achieving crossfunctional alignment on the workflow redesign of Multiple Simulations and Simulation Manager applications.</strong></p>}
       />
-      <EmphasisTextSection
-        text1={"Director's Note"}
-        text2={"While this project is under an NDA, I hope this case study will give a glimpse into the design process I employ to align a crossfunctional team through design. To learn more about the project, feel free to send an email my way."}
+      <TextSection
+        title={"DIRECTOR'S NOTE"}
+        text={"This project is under an NDA, and while I can't share the details of my work, I hope this case study can give you an understanding of the design process I employ to align a crossfunctional team with design."}
       />
-      <SectionDivider text='Movement I: Two Applications, In Parallel'/>
-      <LayeredTextSection
-        orientation='small-big'
-        text1={"MathWorks core product Simulink allows for robust model-based design and simulation using a graphical user interface and a large array of domain-specific applications."}
-        text2={"One of the many capabilities that Simulink supports is running multiple simulations - specifying arrays of parameters for a model and running the model for each parameter combination that is inputted."}
-      />
+      <SectionDivider text='MOVEMENT I: MY DESIGN CHALLENGE'/>
+      <TextSection
+        title={"COMPLEX APPLICATIONS IN PARALLEL"}
+        text={<>
+          <p>MathWorks core product Simulink allows for robust model-based design and simulation using a graphical user interface and a large array of domain-specific applications.</p>
+          <br></br>
+          <p>One of the many capabilities that Simulink supports is running multiple simulations - specifying arrays of parameters for a model and running the model for each parameter combination that is inputted.</p>
+        </>}
+       />
 
       <ImageTextSection orientation='img-text'
         img={MultiSim} 
@@ -59,7 +68,7 @@ function MultiSim_SimManager() {
       />
 
       <ListSection
-        title='Goals'
+        title='GOALS'
         list= {[
           {
             title: 'Align Design Needs',
@@ -75,7 +84,11 @@ function MultiSim_SimManager() {
           }
         ]}
       />
-
+      <ImageTextSection
+        orientation='text-top'
+        title={"A COLLABORATIVE DESIGN PROCESS"}
+        img={design_process}
+      />
       <ImageTextSection
         orientation='text-img'
         img={Team}
@@ -83,78 +96,102 @@ function MultiSim_SimManager() {
         text='The cross-functional team I had the pleasure of working with. Spanning across UX, management, and engineering, I sought out and incorporated perspectives from these groups to build my designs.'
       />
 
-      <SectionDivider text='Movement II: Research... without Research'/>
-      <ImageTextSection
-        img={DevCollab}
-        title='Tapping into Dev Knowledge'
-        text='Meeting three times a week with the developer on the MultiSim/Sim Manager team, I took the opportunity to have early conversations to understand the project and user needs.'
-      />
-      <ListSection
-        title='Developing Product Understanding'
-        list= {[
-          {
-            title: 'Secondary Research',
-            text: "Sourcing user stories from Stack Overflow, MATLAB Answers, MathWorks internal bug-tracking tool"
-          },
-          {
-            title: 'Developer Chats',
-            text: 'Meeting with the developer, I developed an understanding of user pain points and needs through his experience.'
-          },
-          {
-            title: 'Design Sketching',
-            text: "Beginning some preliminary designs, sketching some design solutions to have conversations with developer to understand technical constraints."
-          }
-        ]}
-      />
-      <SectionDivider text={'Movement III: Bringing in the Team - Design Sketching'}/>
-      <LayeredTextSection
-        orientation='small-big'
-        text1={"Early in the design ideation process, I wanted to open our designs to all the people that are important within the Multiple Simulations space"}
-        text2={"I initiated a design sketching event, inviting a team consisting of a manager, developer, and customer-facing engineers to share their design ideas."}
+      <SectionDivider text='Movement I: RESEARCH, COFFEE CHATS, AND NEMAWASHI'/>
+      <TextSection
+        title={"RESEARCH... WITHOUT RESEARCH"}
+        text={
+          <>
+            <p>Without a UX researcher on our team, I had to be creative with my needfinding research.</p>
+            <br></br>
+            <p>Sourcing user stories from <strong>Stack Overflow, MATLAB Answers, MathWorks's internal bug-tracking tool,</strong> I developed user personas and translated their needs into product requirements.</p>
+          </>
+        }
       />
       <ImageTextSection
-        img={TeamCollab}
-        title='Design Sketching Event'
-        text={"Goal: Understand and invite ideas of stakeholders into design of the workflow. \n\nProcess: Presentation on pain points, where and how they occur in current workflow, how they translate to desired design requirements."}
+        orientation={'text-top'}
+        img={nemawashi}
+        title={"WHAT'S NEMAWASHI?"}
+        text={
+          <>
+            <p><strong>Nemawashi</strong> is MathWorks's way of describing "Hey, how about I drop by your office to chat?". </p>
+            <br></br>
+            <p>An informal that has become a norm for intimate collaboration, I took the initiative to chat with our team's developer one-on-one multiple times a week and meet with customer-facing engineers to hear their work with users of MultiSim and Simulation Manager.</p>
+          </>
+        }
       />
-
-      <SectionDivider text={'Movement IV: On the UX Frontier'}/>
+      <TextSection
+        title={"RESEARCH + NEMAWASHI OUTCOMES"}
+        text={
+          <p>A thorough secondary research process and one-on-one chats with the team led me to develop a deep understanding of our users and the people within MathWorks that made these products, <strong>setting a precedence for collaboration between the team and me.</strong></p>
+        }
+      />
+      <SectionDivider text={'Movement II: Bringing in the Team - Design Sketching'}/>
+      <TextSection
+        title={"CREATING A SPACE FOR CROSS-FUNCTIONAL DESIGN IDEATION"}
+        text={
+          <>
+            <p>Early in the design ideation process, I wanted to open our designs to all the people that are important within the Multiple Simulations space.</p>
+            <br></br>
+            <strong>I initiated a design sketching event, inviting a team consisting of a manager, developer, and customer-facing engineers to share their design ideas.</strong>
+          </>
+        }
+      />
+      <ImageTextSection
+        orientation='text-top'
+        img={design_sketching}
+        title='DESIGN SKETCHING WORKSHOP'
+        text={"Goal: Invite and understand the ideas of our team into design of the workflow. \n\nProcess: Presentation on pain points, where and how they occur in current workflow, how they translate to desired design requirements."}
+      />
+      <TextSection
+        title={"DESIGN SKETCHING OUTCOMES"}
+        text={
+          <p>Having the team in once room sharing their ideas, I not only <strong>collected unique design ideas informed by the experience of the manager, developer, and customer-facing engineers</strong>, but also <strong>esablished alignment on the product requirements going forward in this redesign.</strong></p>
+        }
+      />
+      <SectionDivider text={'Movement III: On the UX Frontier'}/>
       <ImageTextSection
         img={UXCollab}
         title='The Nitty Gritty of Design'
-        text={"Following the design sketching meeting, I worked independently and collaboratively with UX Support and development teams to ideate and evaluate design solutions."}
+        text={"Inspired by their perspectives and ideas, I transitioned into a focused UX design process, working alongside my developer and the UX community."}
       />
       <ImageSection
-        img={UXWork}
+        img={ux_process}
       />
-      <EmphasisTextSection
-        text1={"Converging..."}
-        text2={"After the developer and I converged on design solutions that met our requirements, I prepared a design review meeting with our stakeholders."}
+      <TextSection
+        title={"CONVERGING..."}
+        text={"After the developer and I converged on design solutions that met our requirements, I prepared a design review meeting with our stakeholders."}
       />
-      <SectionDivider text={'Movement V: Finale - Design Review'}/>
+      <SectionDivider text={'Movement IV: Design Review'}/>
       <ImageTextSection
-        img={TeamCollab}
-        title='Design Review'
+        orientation='text-top'
+        img={design_review}
+        title='DESIGN REVIEW, DELIVERY, AND LEARNINGS'
         text={"Goal: Present proposed design solution and gather stakeholder feedback. \n\nProcess: Presentation on outcomes of design sketching meeting, iterations, and walk-through of workflow through mid-fi prototype"}
       />
-      <EmphasisTextSection
-        text1={"Outcomes"}
-        text2={"Taking in suggestions from the team, I delivered a final version of the revamped workflow, ready for handoff. \n\nThe solution was well-received by all members of the team and staged for development in the next Matlab release."}
+      <TextSection
+        title={"FINAL OUTCOMES"}
+        text={
+          <>
+            <p>Taking in suggestions from the team, I delivered a final version of the revamped workflow, ready for handoff.</p>
+            <br></br>
+            <strong>The solution was well-received by all members of the team and staged for development in the next MATLAB release.</strong>
+          </>
+        }
       />
-      
       <ListSection
-        title="Things I Learned"
+        title="WHAT THIS PROJECT TAUGHT ME"
         list={[
-          {
-            title: 'Benchmark Earlier',
-            text: 'Talking with mentors mid-way through my internship, I learned of benchmarking exercises that would have equipped me with more product and UX Standard knowledge - something I could have done before the ideating phase of the project.'
-          },
           {
             title: 'Conversations Inspire',
             text: "This project came to be by inviting the perspectives and opinions of all those involved with the project space. By valuing and by seeking those them out, I was able to bring inspirations from their viewpoints into the designs I create. From large meetings, to weekly calls, to impromptu coffee chats, this project taught me that opening the doors to these people will equip me with the knowledge I need to create effective solutions."
+          },
+          {
+            title: 'Benchmark Earlier',
+            text: 'Talking with mentors mid-way through my internship, I learned of benchmarking exercises that would have equipped me with more product and UX Standards knowledge - something I could have done before the ideating phase of the project.'
           }
         ]}
       />
+      <Footer/>
     </main>
   )
 }
