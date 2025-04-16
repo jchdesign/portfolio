@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.476a1d37.css",
-    "main.js": "/static/js/main.513c92db.js",
+    "main.js": "/static/js/main.5593322b.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
     "static/media/uwma.jpg": "/static/media/uwma.fb8bdb2a033ef2979bf5.jpg",
@@ -27,7 +27,7 @@
     "static/media/Exploration.png": "/static/media/Exploration.eedd9b703fd5f885a26d.png",
     "static/media/design_sketching.png": "/static/media/design_sketching.83552c25acc7d82c940b.png",
     "static/media/design_review.png": "/static/media/design_review.e1e04d9a7932739c0452.png",
-    "static/media/nemawashi.png": "/static/media/nemawashi.3164e258f55c8cadb287.png",
+    "static/media/nemawashi.png": "/static/media/nemawashi.3f392a59ae1d9cc89f1d.png",
     "static/media/FlowFinal.png": "/static/media/FlowFinal.8e020fcb356cd84c3784.png",
     "static/media/InitialPages.png": "/static/media/InitialPages.f81481db51b096b4d7ca.png",
     "static/media/sanctuaries.jpg": "/static/media/sanctuaries.2d0aa2bea331a43825ee.jpg",
@@ -76,11 +76,11 @@
     "static/media/arrow-left.svg": "/static/media/arrow-left.0bdeb7d18f6797f251acf80de329b395.svg",
     "static/media/email.svg": "/static/media/email.783ab87f34859c1dde82fc825fb64928.svg",
     "main.476a1d37.css.map": "/static/css/main.476a1d37.css.map",
-    "main.513c92db.js.map": "/static/js/main.513c92db.js.map",
+    "main.5593322b.js.map": "/static/js/main.5593322b.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.476a1d37.css",
-    "static/js/main.513c92db.js"
+    "static/js/main.5593322b.js"
   ]
 }
