@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.476a1d37.css",
-    "main.js": "/static/js/main.5593322b.js",
+    "main.css": "/static/css/main.0fb78cb4.css",
+    "main.js": "/static/js/main.f4c61424.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
     "static/media/uwma.jpg": "/static/media/uwma.fb8bdb2a033ef2979bf5.jpg",
     "static/media/Crazy8.png": "/static/media/Crazy8.c5a730d194c35874378d.png",
     "static/media/OHPoster.png": "/static/media/OHPoster.a4e3316903387b63a554.png",
-    "static/media/interlude_cover.png": "/static/media/interlude_cover.9113d39a6de2e717c342.png",
+    "static/media/interlude_cover.png": "/static/media/interlude_cover.f843d09a3c985ed7e3fa.png",
+    "static/media/interlude_final.png": "/static/media/interlude_final.56e42d47faa7bd21041f.png",
     "static/media/ux_process.png": "/static/media/ux_process.849c760a22fef50dfc40.png",
     "static/media/DLCover.png": "/static/media/DLCover.ed4cdc9a2c6705a72bfa.png",
     "static/media/azureii.jpg": "/static/media/azureii.4af82c769f8b73855bf9.jpg",
     "static/media/reflection.png": "/static/media/reflection.1bb5653d20152817f8b3.png",
-    "static/media/cardMain.png": "/static/media/cardMain.c87f283fd47278843968.png",
     "static/media/acedia.jpg": "/static/media/acedia.b5c3960b7bf9c6ba2334.jpg",
     "static/media/LoFiFlow.png": "/static/media/LoFiFlow.df848f184e40464bdf7e.png",
     "static/media/app_flow.png": "/static/media/app_flow.2e6d84d2cc0c85425d73.png",
@@ -44,11 +44,12 @@
     "static/media/HiFi1.png": "/static/media/HiFi1.43147ae1435f45ef8a64.png",
     "static/media/me.jpg": "/static/media/me.79a8ea5be7a53f9554fe.jpg",
     "static/media/VVSS.jpg": "/static/media/VVSS.d881fce0f298c5257b7b.jpg",
+    "static/media/Flow1.gif": "/static/media/Flow1.7f89d0039f18e35ef442.gif",
     "static/media/Overview.png": "/static/media/Overview.fb56a0cffa9d779f7271.png",
     "static/media/DLPoster.png": "/static/media/DLPoster.83d98ec5ce8602d27446.png",
-    "static/media/interlude_final.png": "/static/media/interlude_final.c045be97de59f8a9c21b.png",
     "static/media/Problem2.png": "/static/media/Problem2.8f5a52ee192ca74a2b06.png",
     "static/media/UXWork.png": "/static/media/UXWork.00d6cec6944905ff4e82.png",
+    "static/media/Flow2.gif": "/static/media/Flow2.6dad66c445ee99cd96cb.gif",
     "static/media/artist_profiles.png": "/static/media/artist_profiles.75f0393ee142ae69a806.png",
     "static/media/music_page.png": "/static/media/music_page.9686ae1cdaba8e532e7c.png",
     "static/media/Problem1.png": "/static/media/Problem1.200e0d9bc8cce8b0529a.png",
@@ -75,12 +76,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.c33ab1ced7c9937e15e703feabc8c16e.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.0bdeb7d18f6797f251acf80de329b395.svg",
     "static/media/email.svg": "/static/media/email.783ab87f34859c1dde82fc825fb64928.svg",
-    "main.476a1d37.css.map": "/static/css/main.476a1d37.css.map",
-    "main.5593322b.js.map": "/static/js/main.5593322b.js.map",
+    "main.0fb78cb4.css.map": "/static/css/main.0fb78cb4.css.map",
+    "main.f4c61424.js.map": "/static/js/main.f4c61424.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.476a1d37.css",
-    "static/js/main.5593322b.js"
+    "static/css/main.0fb78cb4.css",
+    "static/js/main.f4c61424.js"
   ]
 }
