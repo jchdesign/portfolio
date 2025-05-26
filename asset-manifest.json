@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bfa85414.css",
-    "main.js": "/static/js/main.ce28d276.js",
+    "main.js": "/static/js/main.7ad34d6d.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/wnsfa.jpg": "/static/media/wnsfa.507ed7996c646ebe9cf8.jpg",
     "static/media/uwma.jpg": "/static/media/uwma.fb8bdb2a033ef2979bf5.jpg",
@@ -38,18 +38,20 @@
     "static/media/EnlargingNearby.png": "/static/media/EnlargingNearby.ea90a5b4f6041c966e95.png",
     "static/media/me.jpg": "/static/media/me.79a8ea5be7a53f9554fe.jpg",
     "static/media/VVSS.jpg": "/static/media/VVSS.d881fce0f298c5257b7b.jpg",
-    "static/media/Flow1.gif": "/static/media/Flow1.7f89d0039f18e35ef442.gif",
     "static/media/Overview.png": "/static/media/Overview.fb56a0cffa9d779f7271.png",
     "static/media/DLPoster.png": "/static/media/DLPoster.83d98ec5ce8602d27446.png",
-    "static/media/artist_profiles.png": "/static/media/artist_profiles.1ad90b1b1a8aa58700d6.png",
-    "static/media/music_page.png": "/static/media/music_page.e5b2857bd9fb5f545738.png",
+    "static/media/artist_profiles.png": "/static/media/artist_profiles.dd977df10cb48c5b283e.png",
+    "static/media/full_stack.png": "/static/media/full_stack.e6c732dd7f3914a2f6a7.png",
+    "static/media/music_page.png": "/static/media/music_page.95c58e82022e012a5977.png",
     "static/media/UXWork.png": "/static/media/UXWork.00d6cec6944905ff4e82.png",
-    "static/media/Flow2.gif": "/static/media/Flow2.6dad66c445ee99cd96cb.gif",
+    "static/media/database.png": "/static/media/database.86597d05cc89b61b5791.png",
     "static/media/Figure1.jpg": "/static/media/Figure1.e3d93fb93b75f2f3bc58.jpg",
+    "static/media/rec_engineering.png": "/static/media/rec_engineering.5abb439e0ecaa5080dca.png",
     "static/media/Active_NavBar.png": "/static/media/Active_NavBar.43b33eb3982d1dd58687.png",
     "static/media/Tasks.png": "/static/media/Tasks.9d73142bfa500594336c.png",
     "static/media/MultiSim.png": "/static/media/MultiSim.633b51fedde6da01b253.png",
-    "static/media/home_page.png": "/static/media/home_page.59530d1ee8879e5d0304.png",
+    "static/media/home_page.png": "/static/media/home_page.1cff1145c6a377c6d2fb.png",
+    "static/media/rec_system.png": "/static/media/rec_system.774ef30b668defa1b0ae.png",
     "static/media/remembered.jpg": "/static/media/remembered.497f5b7ae289caff9aa3.jpg",
     "static/media/research.png": "/static/media/research.25c5b1a387be0efe951c.png",
     "static/media/UXCollab.png": "/static/media/UXCollab.c7d934f17e4b79653f41.png",
@@ -67,11 +69,11 @@
     "static/media/arrow-left.svg": "/static/media/arrow-left.0bdeb7d18f6797f251acf80de329b395.svg",
     "static/media/email.svg": "/static/media/email.783ab87f34859c1dde82fc825fb64928.svg",
     "main.bfa85414.css.map": "/static/css/main.bfa85414.css.map",
-    "main.ce28d276.js.map": "/static/js/main.ce28d276.js.map",
+    "main.7ad34d6d.js.map": "/static/js/main.7ad34d6d.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfa85414.css",
-    "static/js/main.ce28d276.js"
+    "static/js/main.7ad34d6d.js"
   ]
 }
