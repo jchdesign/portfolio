@@ -447,7 +447,7 @@ p {
   display: grid;
   grid-template-columns: 3fr 5fr;
   grid-template-rows: 1fr;
-  gap: 1px;
+  gap: 2px;
 }
 
 #footer > .grid-item > .socials-container {
@@ -561,12 +561,19 @@ p {
 
 .img-text-container {
   display: flex;
+  justify-content: center;
   border-bottom: 2px solid var(--outline-primary);
 }
 
 
 .img-text-container > img {
   width: 60%;
+  border: 50px solid var(--bg-secondary);
+  box-sizing: border-box;
+}
+
+.img-text-container > .gif {
+  max-height: 80vh;
   border: 50px solid var(--bg-secondary);
   box-sizing: border-box;
 }

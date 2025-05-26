@@ -10,7 +10,7 @@ const about_data = [{
     education: [
         {
             name: 'University of California, Berkeley',
-            year: '2023 - Present'
+            year: '2023 - 2025'
         },
         {
             name: 'University of California, Los Angeles',
@@ -20,7 +20,7 @@ const about_data = [{
     experience: [
         {
             name: 'Cinematic Arts and Production Studio',
-            year: '2024 - Present'
+            year: '2024 - 2025'
         },
         {
             name: 'MathWorks',

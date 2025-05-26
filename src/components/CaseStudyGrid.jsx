@@ -29,7 +29,7 @@ function CaseStudyGrid({data}) {
             <p className='text'>{data.overview}</p>
         </div>
         <div className='grid-item slim' style={!data.collab ? {gridRow:'1/4'}:{}}>
-            <p className='text font-600 font-grey heading-padded'>DIRECTED BY</p>
+            <p className='text font-600 font-grey heading-padded'>CREATED BY</p>
             <ProgramSubItem 
                 listing={data.role[0]}
                 credit={data.role[1]}

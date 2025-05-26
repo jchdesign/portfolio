@@ -3,7 +3,7 @@ import MultiSimCover from '../assets/MultiSim_SimManager/Cover.png';
 import NearbyFlowFinal from '../assets/Nearby/FlowFinal.png';
 import Overview from '../assets/SFParksRec/Overview.png';
 import InterludeCover from '../assets/Interlude/interlude_cover.png';
-import InterludeCard from '../assets/Interlude/cardMain.png'
+import InterludeCard from '../assets/Interlude/interlude_final.png'
 
 const work_data = [
     {
@@ -15,7 +15,7 @@ const work_data = [
         arranged: false,
         collab: true,
         collab_credits: 'THE UC BERKELEY SCHOOL OF INFORMATION',
-        duration: 'OCT 2024 - PRESENT',
+        duration: 'OCT 2024 - MAY 2025',
         collaborators: [
             {
                 name: 'ANITA GUO',
@@ -36,8 +36,8 @@ const work_data = [
         ],
         img: InterludeCover,
         imgCard: InterludeCard,
-        miniOverview: 'Orchestrating product management, UI/UX design, and engineering in 0 to 1 development of an application supporting the growth of emerging music artists.',
-        overview: 'Orchestrating product management, UI/UX design, and engineering in 0 to 1 development of an application supporting the growth of emerging music artists.',
+        miniOverview: 'Orchestrating product management, UI/UX design, and full-stack engineering in 0 to 1 development of an application supporting the growth of emerging music artists.',
+        overview: 'Orchestrating product management, UI/UX design, and full-stack engineering in 0 to 1 development of an application supporting the growth of emerging music artists.',
         link: '/Interlude'
     },
     {

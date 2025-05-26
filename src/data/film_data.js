@@ -1,10 +1,41 @@
 import DLPoster from '../assets/DirtyLaundry/DLPoster.png';
 import DLCover from '../assets/DirtyLaundry/DLCover.png';
 import OHPoster from '../assets/OniriaHill/OHPoster.png';
+import BrightSideCover from '../assets/BrightSide/BrightSideCover.png';
 
 const film_data = [
     {
         key: 1,
+        title: 'LOOK ON THE BRIGHT SIDE',
+        listing: 'LOOK ON THE BRIGHT SIDE',
+        role: ['JEFF CHANG', 'Composer'],
+        credit: 'CAP STUDIOS', // For the program listing
+        arranged: true,
+        duration: 'MAR 2025 - MAY 2025',
+        collab: true,
+        collab_credits: 'CAP STUDIOS', // For the collaboration header
+        collaborators: [
+            {
+                name: 'MYLA PITZER',
+                role: 'Director'
+            },
+            {
+                name: 'SYDNIE PITZER',
+                role: 'Director'
+            },
+            {
+                name: 'CAP Studios',
+                role: 'Production Studio'
+            }
+        ],
+        img: BrightSideCover,
+        imgCard: BrightSideCover,
+        miniOverview: 'Scoring the emotional journey of an artist facing a degenerative eye disorder.', 
+        overview: 'I work alongside directors Myla Pitzer and Sydnie Pitzer to craft a score capturing the heartache, acceptance, and hope of Eden — an artist confronting a degenerative eye disorder.',
+        link: '/BrightSide'
+    },
+    {
+        key: 2,
         title: 'DIRTY LAUNDRY',
         listing: 'DIRTY LAUNDRY',
         role: ['JEFF CHANG', 'Composer, Sound Designer, Boom Op'],

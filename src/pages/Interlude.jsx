@@ -10,6 +10,7 @@ import TextSection from '../components/TextSection';
 import SectionDivider from '../components/SectionDivider';
 import ListSection from '../components/ListSection';
 import InfoGrid from '../components/InfoGrid';
+import Footer from '../components/Footer';
 
 import interlude_final from '../assets/Interlude/interlude_final.png'
 import app_flow from '../assets/Interlude/app_flow.png';
@@ -17,7 +18,10 @@ import research from '../assets/Interlude/research.png';
 import artist_profiles from '../assets/Interlude/artist_profiles.png';
 import music_page from '../assets/Interlude/music_page.png';
 import home_page from '../assets/Interlude/home_page.png';
-import Footer from '../components/Footer';
+import full_stack from '../assets/Interlude/full_stack.png';
+import database from '../assets/Interlude/database.png';
+import rec_engineering from '../assets/Interlude/rec_engineering.png';
+import rec_system from '../assets/Interlude/rec_system.png';
 
 
 function Interlude() {
@@ -49,7 +53,7 @@ function Interlude() {
         title={"UNDERSTANDING OUR USERS"}
         text={
           <>
-            <p>In the Fall of 2024, I brought together a group of graduate students at my program in the UC Berkeley School of Information. I thought:</p>
+            <p>In the Fall of 2024, my peers and I at the UC Berkeley School of Information began our capstone projects. I sat down together with a group of my friends and thought:</p>
             <br></br>
             <strong>How can we help early stage artists build an audience?</strong>
             <br></br>
@@ -151,34 +155,79 @@ function Interlude() {
         title='Artist Music Pages to Speak Freely About Music'
         text={"Organizing content about music in a page that serves as a source of truth from the artist, where an artist’s thoughts, process, stories, and exclusive content about a piece of music are contained and experienced."}
       />
-      <TextSection
+      {/* <TextSection
         text={<p>I collaborated with the designers creating the listener experience, iterating through proposed designs and <strong>integrating the content from the artist pages with the listener-facing application.</strong></p>}
-      />
+      /> */}
       <ImageTextSection
         orientation='text-top'
         img={home_page}
         title='Listener Home Page for Discovery and Connection'
         text={<p>Allowing for discovery of new artists through an <strong>inverse recommendation system</strong>. Increasing visibility of artists through community interactions by displaying reposts, comments, and activity from the network that a listener follows. </p>}
       />
-      {/* <SectionDivider text={"MOVEMENT III: TESTING"}/>
-      
-      <SectionDivider text={"MOVEMENT IV: THE FUTURE AND REFLECTIONS"}/>
-      <ListSection
-        title='Reflections and Learnings'
+      <SectionDivider text={"MOVEMENT III: BUILDING AN INVERSE RECOMMENDATION SYSTEM"}/>
+      <TextSection
+        text={<p>I worked with the data scientist to build an <strong>inverse recommendation system that factored in the popularity of an artist</strong> in order to deliver personalized recommendations to listeners that are adjusted to <strong>prioritize music from less popular artists.</strong></p>}
+      />
+      <ImageSection
+        img={rec_system}
+      />
+      <SectionDivider text={"MOVEMENT IV: FULL-STACK ENGINEERING"}/>
+      <ImageTextSection
+        orientation='text-top'
+        img={full_stack}
+        text={"Using React Native, Google Firebase, and Rest APIs, I built a working, live MVP for Interlude."}
+      />
+      <ImageTextSection
+        orientation='img-text'
+        img={database}
+        title={"Database Design"}
+        text={"Using Firestore, I ideated and built a simple and scalable relational database architecture to accommodate for a variety of users, post types, music types, and , enabling quick storage and retrieval of content for artists and listeners."}
+      />
+      <ImageTextSection
+        orientation='text-top'
+        img={rec_engineering}
+        title={"Integrating the Recommendation System"}
+        text={<>
+        <p>1. Connecting the onboarding process to build and store a vector representation of listener preferences.</p>
+        <br></br>
+        <p>2. Linking the music upload functionality to the feature extraction code, generating and storing a vector representation of individual songs.</p>
+        <br></br>
+        <p>3. Connecting the recommendation system to the backend, using the vector representations of songs and users to generate recommendations for each listener.</p>
+        </>}
+      />
+      <SectionDivider text={"MOVEMENT V: THE FUTURE AND REFLECTIONS"}/>
+      <InfoGrid
         list={[
+          {
+            title: "OUR NEXT STEPS"
+          },
+          {
+            title: "Creating More Personalization",
+            text: "Implementing functions to update listener preferences via post interactions, shares, saves, and qualitative feedback in order to create a more personalized listening experience."
+          },
+          {
+            title: "Calculating Success Metrics",
+            text: "Measuring song saves, calculating recommendation click-through rates, creating our own popularity metric to evaluate the influence of Interlude on the growth of artists."
+          }
+        ]}
+      />
+      <ListSection
+        title='REFLECTIONS AND LEARNINGS'
+        list={[
+          {
+            title: "Welcome the Skepticism",
+            text: "A vision will always be met with skepticism. Embrace it. We have to continue to think of ways to justify our value, but critically, when people say that something isn’t working, to set aside my ego of “I believe in this” and just listen to what they think is one of the most powerful things a product owner can do. Because when you do so, you open yourself to all the ways your product can grow alongside the people you're designing it for."
+          },
           {
             title: "Keep the User at Heart",
             text: "From 0 to 1, one guiding principle I maintained in our group's work is: let's listen to people first. Allowing myself to be humbled and guided by the experiences and pain points of artists and listeners, especially if they do not align with my own perceptions of the problem space, was key to creating an MVP that was well-received by our audience."
           },
           {
-            title: "Fidelity Matters for Usability Testing",
-            text: "Who would have thought that Lorem Ipsum text would have confused artists about the nature of the content on our app? Not us apparently (whoops). Turn up the fidelity for parts of the prototypes we want interviewees to understand more deeply."
-          },          {
-            title: "Fidelity Matters for Usability Testing",
-            text: "Who would have thought that Lorem Ipsum text would have confused artists about the nature of the content on our app? Not us apparently (whoops). Turn up the fidelity for parts of the prototypes we want interviewees to understand more deeply."
+            title: "Design is More Than Just Design",
+            text: "Design is a marriage of research, engineering, product, data... the list goes on. Our onboarding is informed by the recommendation system requirements, and vice versa. The types of content that artists can post are enabled by a simple and scalable relational database structure. Learning to align all these different departments is a necessity of design."
           }
         ]}
-      /> */}
+      />
       <Footer/>
     </main>
   )

@@ -15,9 +15,9 @@ import Reflection from './pages/Reflection';
 import Recollections from './pages/Recollections';
 import OniriaHill from './pages/OniriaHill';
 import DirtyLaundry from './pages/DirtyLaundry';
-import Interlude from './pages/Interlude'
+import Interlude from './pages/Interlude';
+import BrightSide from './pages/BrightSide';
 import ComingSoon from './pages/ComingSoon';
-import SFParksRec from './pages/SFParksRec';
 import ProgramListCards from './components/ProgramListCards';
 import ProgramListCardsLong from './components/ProgramListCardsLong';
 
@@ -35,12 +35,11 @@ function App() {
         <Route path='/MultiSim_SimManager' element={<MultiSim_SimManager/>}></Route>
         <Route path='/Nearby' element={<Nearby/>}></Route>
         <Route path='/Reflection' element={<Reflection/>}></Route>
-        <Route path='/SFParksRec' element={<SFParksRec/>}></Route>
         <Route path='/Interlude' element={<Interlude/>}></Route>
-
 
         <Route path='/OniriaHill' element={<OniriaHill/>}></Route>
         <Route path='/DirtyLaundry' element={<DirtyLaundry/>}></Route>
+        <Route path='/BrightSide' element={<BrightSide/>}></Route>
 
         <Route path='/Recollections' element={<Recollections/>}></Route>
       </Routes>

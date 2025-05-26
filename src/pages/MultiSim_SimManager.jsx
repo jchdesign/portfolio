@@ -115,7 +115,7 @@ function MultiSim_SimManager() {
           <>
             <p><strong>Nemawashi</strong> is MathWorks's way of describing "Hey, how about I drop by your office to chat?". </p>
             <br></br>
-            <p>An informal that has become a norm for intimate collaboration, I took the initiative to chat with our team's developer one-on-one multiple times a week and meet with customer-facing engineers to hear their work with users of MultiSim and Simulation Manager.</p>
+            <p>An informal that has become a norm for intimate collaboration, I took the initiative to chat with our team's developer one-on-one multiple times a week and meet with our product manager and customer-facing engineers to hear their experience working with users of MultiSim and Simulation Manager.</p>
           </>
         }
       />
@@ -140,12 +140,12 @@ function MultiSim_SimManager() {
         orientation='text-top'
         img={design_sketching}
         title='DESIGN SKETCHING WORKSHOP'
-        text={"Goal: Invite and understand the ideas of our team into design of the workflow. \n\nProcess: Presentation on pain points, where and how they occur in current workflow, how they translate to desired design requirements."}
+        text={"Goal: Understand the ideas of our team and invite them into the redesign of the workflow. \n\nProcess: Presentation on pain points, where and how they occur in current workflow, how they translate to desired design requirements."}
       />
       <TextSection
         title={"DESIGN SKETCHING OUTCOMES"}
         text={
-          <p>Having the team in once room sharing their ideas, I not only <strong>collected unique design ideas informed by the experience of the manager, developer, and customer-facing engineers</strong>, but also <strong>esablished alignment on the product requirements going forward in this redesign.</strong></p>
+          <p>Having the team in once room sharing their ideas, I not only <strong>collected unique design ideas informed by the experience of the manager, developer, and customer-facing engineers</strong>, but also <strong>established alignment on the product requirements going forward in this redesign.</strong></p>
         }
       />
       <SectionDivider text={'Movement III: On the UX Frontier'}/>
@@ -166,13 +166,13 @@ function MultiSim_SimManager() {
         orientation='text-top'
         img={design_review}
         title='DESIGN REVIEW, DELIVERY, AND LEARNINGS'
-        text={"Goal: Present proposed design solution and gather stakeholder feedback. \n\nProcess: Presentation on outcomes of design sketching meeting, iterations, and walk-through of workflow through mid-fi prototype"}
+        text={"Goal: Present proposed design solution and gather stakeholder feedback. \n\nProcess: Presentation on outcomes of design sketching meeting, iterations, and walk-through of workflow through mid-fi prototypes."}
       />
       <TextSection
         title={"FINAL OUTCOMES"}
         text={
           <>
-            <p>Taking in suggestions from the team, I delivered a final version of the revamped workflow, ready for handoff.</p>
+            <p>Taking in suggestions from the team, I delivered a high-fidelity final version of the revamped workflow, ready for handoff.</p>
             <br></br>
             <strong>The solution was well-received by all members of the team and staged for development in the next MATLAB release.</strong>
           </>
